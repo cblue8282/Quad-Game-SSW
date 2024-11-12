@@ -1,0 +1,992 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title><Actions</title>
+    <style type="text/css">
+        <!--
+        :root {
+            color-scheme: light dark;
+            --element-banner-background-colour: #eeeeee;
+            --heading-panel-background-colour: #eeeeee;
+            --heading-panel-text-colour: #222222;
+            --heading-panel-succeeded-background-colour: #E6FFE6;
+            --heading-panel-failed-background-colour: #f69Ca6;
+
+            --heading-row-background-colour: #e0e0e0;
+            --stripe-one-background-colour: #ffffff;
+            --stripe-two-background-colour: #f3f6fa;
+
+            --index-dull-red-colour: #800000;
+            --periodic-table-sidebar-colour: #888;
+            --periodic-table-sidebar-hover-colour: #222;
+            --leaders-background-colour: white;
+            --library-card-title-colour: #803030;
+            --library-card-other-colour: #303030;
+            --index-more-box-background-colour: #e0e0e0;
+            --index-activity-contents-background-colour: #e8e0c0;
+            --registry-contents-link-colour: #202020;
+
+        }
+
+        @media (prefers-color-scheme: dark) {
+          :root {
+            --element-banner-background-colour: #444444;
+            --heading-panel-background-colour: #444444;
+            --heading-panel-text-colour: #ffffff;
+            --heading-panel-succeeded-background-colour: #738073;
+            --heading-panel-failed-background-colour: #7b4e53;
+
+            --heading-row-background-colour: #707070;
+            --stripe-one-background-colour: #7f7f7f;
+            --stripe-two-background-colour: #797b7d;
+
+            --index-dull-red-colour: #c00000;
+            --periodic-table-sidebar-colour: #555;
+            --periodic-table-sidebar-hover-colour: #222;
+            --leaders-background-colour: black;
+            --library-card-title-colour: #a05050;
+            --library-card-other-colour: #505050;
+            --index-more-box-background-colour: #444444;
+            --index-activity-contents-background-colour: #727060;
+            --registry-contents-link-colour: #ffffff;
+            }
+        }
+
+        /* The default font (family) and size */
+
+        body, p, td {
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 12px;
+        }
+
+        /* For fixed-point material within text, such as the typing on the Library Card index page */
+
+        span.typewritten {
+            font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+            font-size: 13px;
+        }
+
+        /* For less important material: the small print */
+
+        span.smaller {
+            font-size: 80%;
+        }
+
+        /* The "heading panel" is the coloured box, high up on the page. The colours
+        vary depending on the page: for example, the style on a report of a translation
+        with no problems is "headingpanelsucceeded", usually green, but if there were
+        problems then "headingpanelfailed" is used, which is usually red. "headingpanel"
+        itself is a more neutral grey by default. "headingpanelDark" is an alternative
+        look to make the extensions index pages have some visual contrast with the others;
+        by default they are a darker grey. */
+
+        .headingpanel {
+            background: var(--heading-panel-background-colour);
+        }
+        .headingpanelsucceeded {
+            background: var(--heading-panel-succeeded-background-colour);
+        }
+        .headingpanelfailed {
+            background: var(--heading-panel-failed-background-colour);
+        }
+        .headingpanelalt {
+            background: #808080;
+        }
+
+        /* Heading panels have two lines of text: an upper one in a larger size, and a
+        lower one in a smaller. Again, the alt versions are meant to contrast.
+
+            Report on Translation: Succeeded                <-- headingpaneltext
+            Produced by Inform 10.1.0 (build 6U97)          <-- headingpanelrubric
+
+            Installed Extensions                            <-- headingpaneltextalt
+            Bundles of extra rules or phrases to...         <-- headingpanelrubricalt
+
+        */
+
+        span.headingpaneltext {
+            color: var(--heading-panel-text-colour);
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        span.headingpaneltextalt {
+            color: #ffffff;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        span.headingpanelrubric {
+            color: var(--heading-panel-text-colour);
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 11px;
+            font-weight: bold;
+        }
+        span.headingpanelrubricalt {
+            color: #ffffff;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        /* Horizontal rule styling */
+
+        div.hr {
+            border: 0;
+            width: 100%;
+            color: #707070;
+            background-color: #707070;
+            height: 5px;
+        }
+
+        /* This styles the (usually white) text of the example numbers written inside
+        oval blobs in the extension documentation, which mimic the look of the in-app
+        documentation. */
+
+        .oval, .oval td {
+            background-image:url('inform:/doc_images/ovoid.png');
+            color:white;
+        }
+
+        /* Styling used in the extension documentation indexes: */
+
+        /* Used for extension names in the extensions pane of the app */
+
+        span.extensioncensusentry {
+            color: #ffffff;
+        }
+
+        span.extensionindexentry {
+            color: #404040;
+        }
+
+        span.extensionindexerror {
+            color: #ff8080;
+        }
+
+        /* This is used in extension documentation, where an example is presented
+        in a slightly tinted box: */
+
+        table.extensionexample {
+        	background-color: #f0f0f0;
+        }
+
+        span.extensionexampleletter {
+        	color: #202020;
+        	font-size: 14px;
+        	font-weight: bold;
+        }
+
+        /* Seen in problem messages: */
+
+        span.problemred {
+            color: #800000;
+        }
+
+        span.problemgreen {
+            color: #008000;
+        }
+
+        span.phraseword {
+            color: #808080;
+        }
+
+        span.phrasetokentext {
+            color: #e00060;
+        }
+
+        span.phrasetokendesctext {
+            color: #4040ff;
+        }
+
+        span.phrasetokenvaluetext {
+            color: #ff4040;
+        }
+
+        /* Now we move on to styling used in the Index pages only: */
+
+        /* The periodic table display has "sidebars", usually grey and taller than they
+        are wide; they contain no text. */
+
+        div.periodictablesidebarcolour {
+            background: var(--periodic-table-sidebar-colour);
+        }
+        div.periodictablesidebar:hover {
+            background: var(--periodic-table-sidebar-hover-colour);
+        }
+
+        /* The text of the element-abbreviation, such as "Lx" or "Ph", uses: */
+
+        span.elementtext {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Similarly for the "atomic number" - a single digit - in the top left corner
+        of these boxes: */
+
+        span.elementnumbertext {
+            color: #ffffff;
+            font-size: 7pt;
+        }
+
+        /* For the text of the element title, to the right of the element box: */
+
+        span.elementtitletext {
+            color: #ffffff;
+            font-size: 9px;
+            font-weight: bold;
+        }
+
+        /* The banner at the top of each element: */
+
+        table.elementbanner {
+            background: var(--element-banner-background-colour);
+        }
+
+        /* For the typewriting on the Library Card: */
+
+        span.librarycardtitle {
+            color: var(--library-card-title-colour);
+        }
+
+        span.librarycardother {
+            color: var(--library-card-other-colour);
+        }
+
+        /* Generically used for "more details" boxes in the index: */
+
+        table.indexmorebox {
+        	background-color: var(--index-more-box-background-colour);
+            border-radius: 8px;
+        }
+
+        /* But not for activity contents: */
+
+        table.indexactivitycontents {
+        	background-color: var(--index-activity-contents-background-colour);
+            border-radius: 8px;
+        }
+
+        /* For responses in index entries about rules: */
+
+        span.indexresponseletter {
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #8080ff;
+        }
+
+        span.indexresponsetext {
+            color: #000066;
+        }
+
+        /* Used ubiquitously throughout the index for unemphasised text: */
+
+        span.indexblack {
+        	color: #000000;
+        }
+
+        span.indexgrey {
+        	color: #808080;
+        }
+
+        span.indexdarkgrey {
+            color: #505050;
+        }
+
+        span.indexdullred {
+            color: var(--index-dull-red-colour);
+        }
+
+        span.indexdullgreen {
+            color: #008000;
+        }
+
+        span.indexdullblue {
+            color: #000080;
+        }
+
+        /* Used in the numbering of levels of the World map in the Index */
+
+        span.indexmaplevelnumbers {
+        	color: #c0c0c0;
+        }
+
+        /* Used for the room squares in the World map in the Index (which is currently
+        a table with one row of one column) */
+
+        table.indexmaproom {
+        	border-color: #000000;
+        }
+
+        /* Used in the numbering of levels of the World map in the Index */
+
+        span.indexmaplevelnumbers {
+        	color: #c0c0c0;
+        }
+
+        /* Used e.g. for title rows in the Chart of basic kinds in the Index */
+
+        tr.headingrow {
+        	background-color: var(--heading-row-background-colour);
+        }
+
+        /* Standard rows have black text on striped background colours, these being
+        the usual ones seen in Mac OS X applications such as iTunes. */
+
+        tr.stripeone {
+        	background-color: var(--stripe-one-background-colour);
+        }
+
+        tr.stripetwo {
+        	background-color: var(--stripe-two-background-colour);
+        }
+
+        tr.tintedrow {
+        	background-color: #808080;
+        }
+
+        /* In the Figures index, this is the background colour used behind images
+        (though in fact it will only be visible if the image fails to load, or uses
+        transparency): */
+
+        div.figureindexbox {
+        	background-color: #6495ed;
+        }
+
+        /* To get the book-contents-page style leaders on the Contents element of
+           the index to work, these must use the background colour of the body of
+           the page, whatever that is: */
+
+        ul.leaders li.leaded span:first-child {
+            background: var(--leaders-background-colour);
+        }
+        ul.leaders li.leaded span + span {
+            background: var(--leaders-background-colour);
+        }
+
+        /* On Registry index pages (such as the Public Library), these are used for
+        download buttons and the like: */
+
+        span.registrybuttontext {
+        	font-size: 11px;
+        	border-color: #000000;
+        }
+
+        span.registryminibuttontext {
+        	font-size: 10px;
+        	border-color: #000000;
+        }
+
+        span.registrybuttonuninstalled {
+        	color: #000000;
+        	background: #ffffdd;
+        }
+
+        span.registrybuttoninstalled {
+        	color: #000000;
+        	background: #ffffff;
+        	pointer-events: none;
+        }
+
+        span.registrybuttonbuiltin {
+        	color: #888888;
+        	background: #ffffff;
+        	pointer-events: none;
+        }
+
+        span.registrybuttonupdate {
+        	color: #000000;
+        	background: #aaddff;
+        }
+
+        span.registrybuttonrevert {
+        	color: #000000;
+        	background: #ddaaff;
+        }
+
+        span.registrybuttonrevealer {
+        	color: #ffffff;
+        	background: #444444;
+        }
+
+        /* Registry index section headings: */
+
+        span.registrysectionname {
+        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	-webkit-font-smoothing: antialiased;
+        	font-size: 16px;
+        	line-height: 18px;
+        }
+        span.registrysubsectionname {
+        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	-webkit-font-smoothing: antialiased;
+        	font-size: 14px;
+        	line-height: 16px;
+        }
+
+        /* These are for the "mark" for a section, usually a section-symbol and number */
+
+        span.registrysectionmark {
+        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	-webkit-font-smoothing: antialiased;
+        	font-size: 16px;
+        	line-height: 18px;
+        	color: #666;
+        }
+        span.registrysubsectionmark {
+        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	-webkit-font-smoothing: antialiased;
+        	font-size: 14px;
+        	line-height: 16px;
+        	color: #666;
+        }
+
+        /* Text of an item listed in a registry: */
+
+        span.registryitemtext {
+        	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+        	-webkit-font-smoothing: antialiased;
+        	font-size: 12px;
+        	line-height: 16px;
+        }
+
+        /* And how the links in a registry index page behave: */
+
+        a.registrysilentlink {
+        	text-decoration: none;
+        	color: #000;
+        }
+        a.registrybuttonlink {
+        	text-decoration: none;
+        }
+        a.registrycontentslink:link {
+        	text-decoration: none;
+        	color: var(--registry-contents-link-colour);
+        }
+        a.registrycontentslink:visited {
+        	text-decoration: none;
+        	color: var(--registry-contents-link-colour);
+        }
+        a.registrycontentslink:hover {
+        	text-decoration: none;
+        	color: #D00000;
+        }
+        a.registrycontentslink:active {
+        	text-decoration: none;
+        	color: #D00000;
+        }
+
+        -->
+    </style>
+    <style type="text/css">
+        <!--
+        /* (1) General layout material */
+
+        *, *:before, *:after {
+        	-moz-box-sizing: border-box;
+        	-webkit-box-sizing: border-box;
+        	box-sizing: border-box;
+        }
+        .headingpanellayout {
+        	position: relative;
+        	height: 56px;
+        	padding: 0px;
+        	white-space:nowrap;
+        }
+        .headingpanellayoutdeeper {
+        	position: relative;
+        	height: 117px;
+        	padding: 0px;
+        	white-space:nowrap;
+        }
+        .headingtext {
+        	position: absolute;
+        	top: -4px;
+        	left: -1px;
+        	width: 100%;
+        	padding: 14px 10px 0px 10px;
+        }
+        .headingrubric {
+        	position: absolute;
+        	top: 36px;
+        	width: 100%;
+        	padding: 0px 10px 0px 10px;
+        }
+        h3.tighter {
+        	margin-top: 0px;
+        }
+        p.hang {
+        	padding-left: 25px;
+        	text-indent: -25px;
+        	margin-top: 0px;
+        	margin-bottom: 0px;
+        }
+        p.in1 {
+        	padding-left: 0px;
+        }
+        p.tightin1 {
+        	padding-left: 0px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin1 {
+        	padding-left: 0px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin1 {
+        	padding-left: 50px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in2 {
+        	padding-left: 25px;
+        }
+        p.tightin2 {
+        	padding-left: 25px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin2 {
+        	padding-left: 25px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin2 {
+        	padding-left: 75px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in3 {
+        	padding-left: 50px;
+        }
+        p.tightin3 {
+        	padding-left: 50px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin3 {
+        	padding-left: 50px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin3 {
+        	padding-left: 100px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in4 {
+        	padding-left: 75px;
+        }
+        p.tightin4 {
+        	padding-left: 75px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin4 {
+        	padding-left: 75px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin4 {
+        	padding-left: 125px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in5 {
+        	padding-left: 100px;
+        }
+        p.tightin5 {
+        	padding-left: 100px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin5 {
+        	padding-left: 100px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin5 {
+        	padding-left: 150px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in6 {
+        	padding-left: 125px;
+        }
+        p.tightin6 {
+        	padding-left: 125px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin6 {
+        	padding-left: 125px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin6 {
+        	padding-left: 175px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in7 {
+        	padding-left: 150px;
+        }
+        p.tightin7 {
+        	padding-left: 150px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin7 {
+        	padding-left: 150px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin7 {
+        	padding-left: 200px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in8 {
+        	padding-left: 175px;
+        }
+        p.tightin8 {
+        	padding-left: 175px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin8 {
+        	padding-left: 175px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin8 {
+        	padding-left: 225px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+        p.in9 {
+        	padding-left: 200px;
+        }
+        p.tightin9 {
+        	padding-left: 200px;
+        	margin-top: 2px;
+        	margin-bottom: 2px;
+        }
+        p.halftightin9 {
+        	padding-left: 200px;
+        	margin-bottom: 2px;
+        }
+        p.hangingin9 {
+        	padding-left: 250px;
+        	text-indent: -50px;
+        	margin-top: 0px;
+        	margin-bottom: 1px;
+        }
+
+        /* (2) Index page layout material */
+
+        /* The periodic table display has "sidebars", usually grey and taller than they
+        are wide; they contain no text. */
+
+        div.periodictablesidebar {
+        	height: 56px;
+        	width: 16px;
+        }
+        .periodictablesidebar a:link { text-decoration: none; }
+        .periodictablesidebar a:visited { text-decoration: none; }
+        .periodictablesidebar a:active { text-decoration: none; }
+
+        /* The "element boxes" are the cells appearing in the periodic-table display
+        on the welcome page of the index: */
+
+        .elementbox {
+        	position: relative;
+        	height: 56px;
+        	width: 56px;
+        	padding: 0px;
+        }
+
+        .elementbox a:link { text-decoration: none; }
+        .elementbox a:visited { text-decoration: none; }
+        .elementbox a:active { text-decoration: none; }
+        .elementbox a:hover { text-decoration: none; }
+        .elementbox:hover {
+        	opacity: 0.6;
+        }
+
+        /* The "small element boxes" look like those, but are smaller, and used on
+        the headings of the content which those original boxes link to: */
+
+        .smallelementbox {
+        	position: relative;
+        	height: 40px;
+        	width: 40px;
+        	padding: 0px;
+        }
+
+        .smallelementbox a:link { text-decoration: none; }
+        .smallelementbox a:visited { text-decoration: none; }
+        .smallelementbox a:active { text-decoration: none; }
+        .smallelementbox a:hover { text-decoration: none; }
+        .smallelementbox:hover {
+        	opacity: 0.6;
+        }
+
+        /* This is a class for the links formed by the element boxes: */
+
+        a.elementlink {
+        	position: absolute;
+        	top: -4px;
+        	left: -1px;
+        	width: 100%;
+        	padding: 14px 0px 14px 1px;
+        	text-align: center;
+        }
+
+        /* Similarly for the "atomic number" - a single digit - in the top left corner
+        of these boxes: */
+
+        div.elementnumber {
+        	position: absolute;
+        	top: 1px;
+        	left: 3px;
+        	text-align: left;
+        }
+
+        /* For the text of the element title, to the right of the element box: */
+
+        div.elementtitle {
+        	position: absolute;
+        	top: 35px;
+        	width: 100%;
+        	text-align: center;
+        }
+
+        /* Used for the book-contents-page style leaders on the Contents element of
+           the index: */
+
+        ul.leaders {
+        	padding: 0;
+        	margin-top: 1px;
+        	margin-bottom: 0;
+        	overflow-x: hidden;
+        	list-style: none}
+        ul.leaders li.leaded:before {
+        	float: left;
+        	width: 0;
+        	white-space: nowrap;
+        	content:
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "
+        	".  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  "}
+        ul.leaders li.leaded span:first-child {
+        	padding-right: 0.33em;
+        }
+        ul.leaders li.leaded span + span {
+        	float: right;
+        	padding-left: 0.33em;
+        }
+        li.indent1 span:first-child {
+        	padding-left: 25px;
+        }
+        li.indent2 span:first-child {
+        	padding-left: 50px;
+        }
+        li.indent3 span:first-child {
+        	padding-left: 75px;
+        }
+        li.indent4 span:first-child {
+        	padding-left: 100px;
+        }
+        li.indent5 span:first-child {
+        	padding-left: 125px;
+        }
+        li.indent6 span:first-child {
+        	padding-left: 150px;
+        }
+        li.indent7 span:first-child {
+        	padding-left: 175px;
+        }
+        li.indent8 span:first-child {
+        	padding-left: 200px;
+        }
+        li.indent9 span:first-child {
+        	padding-left: 225px;
+        }
+
+        li.unleaded:before {
+        	content: "";
+        }
+
+        /* On Registry index pages (such as the Public Library), these are used for
+        download buttons and the like: */
+
+        span.registrybuttons {
+        	height: 20px;
+        	padding: 2px 8px 2px 8px;
+        	margin: 2px;
+        	border:1px solid;
+        	border-radius: 5px;
+        }
+
+        span.registryminibuttons {
+        	height: 14px;
+        	padding: 2px 5px 2px 5px;
+        	margin: 2px;
+        	border:1px solid;
+        	border-radius: 4px;
+        }
+
+        /* Used to hide or display sections in the Registry pages: */
+
+        div.registrysectionitemsopen {
+        	display: block;
+        }
+
+        div.registrysectionitemsclosed {
+        	display: none;
+        }
+
+        /* Hanging indentation for Registry item paragraphs: */
+
+        p.registryitem {
+        	padding-left: 80px;
+        	text-indent: -40px;
+        }
+
+        p.registryaddition {
+        	padding-left: 40px;
+        	text-indent: -40px;
+        }
+
+        -->
+    </style>
+    <script type="text/javascript">
+        function project() {
+            return window.Project;
+        }
+        function showExtra(id, imid) {
+        	if (document.getElementById(id).style.display == 'block') {
+        		document.getElementById(id).style.display = 'none';
+        		document.getElementById(imid).src = 'inform:/doc_images/extra.png';
+        	} else {
+        		document.getElementById(id).style.display = 'block';
+        		document.getElementById(imid).src = 'inform:/doc_images/extraclose.png';
+        	}
+        }
+        function showBasic(id) {
+        	if (document.getElementById(id).style.display == '') {
+        		document.getElementById(id).style.display = 'none';
+        	} else {
+        		document.getElementById(id).style.display = '';
+        	}
+        }
+        function showResp(id, imid) {
+        	if (document.getElementById(id)) {
+        		if (document.getElementById(id).style.display == 'block') {
+        			document.getElementById(id).style.display = 'none';
+        			document.getElementById(imid).src = 'inform:/doc_images/responses.png';
+        		} else {
+        			document.getElementById(id).style.display = 'block';
+        			document.getElementById(imid).src = 'inform:/doc_images/responsesclose.png';
+        		}
+        	}
+        }
+        function showAllResp(tot) {
+        	for (var i=0;i<tot;i++) {
+        		showResp('extra'+(1000000+i), 'plus'+(1000000+i));
+        	}
+        }
+        function pasteCode(code) {
+        	var myProject = project();
+        	myProject.selectView('source');
+        	myProject.pasteCode(code);
+        }
+
+    </script>
+</head>
+<body>
+    <!--CONTENT BEGINS-->
+    <table cellspacing="3" border="0" class="elementbanner">
+        <tr>
+            <td valign="top" align="left">
+                <div id="minibox1_1" class="smallelementbox">
+                    <a class="elementlink" title="Details" href="../Actions.html"><span class="elementtext">^</span></a><div class="elementnumber">
+                        <span class="elementnumbertext">1
+                        </span></div>
+                </div>
+
+            </td>
+            <td style="width:100%;" align="left" valign="top">
+                <p style="margin-top:0px;padding-top:0px;margin-bottom:0px;padding-bottom:0px;line-height:150%;"><b>Details</b> &mdash; 
+                A single action in detail.<br>
+                <i>About the action rulebooks&nbsp;&nbsp;<a href=inform:/doc176.html><img border=0 src=inform:/doc_images/help.png></a></i></p>
+
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <p><b>From the extension Standard Rules - Standard actions concerning the actor's vision</b><br>looking&nbsp;<a href=11_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, <b>examining</b>, looking under&nbsp;<a href=13_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, searching&nbsp;<a href=14_A.html><img border=0 src=inform:/doc_images/Beneath.png></a>, consulting it about&nbsp;<a href=15_A.html><img border=0 src=inform:/doc_images/Beneath.png></a></p>
+    <hr>
+    <p><b>Examining <span class="indexdullblue">something</span> </b> (requires light) (<i>past tense</i> examined): applying to one visible thing and requiring light</p>
+    <p>The act of looking closely at
+    something. Note that the noun could be either a direction or a thing, which
+    is why the Standard Rules include the 'examine directions rule' to deal with
+    directions: it simply says 'You see nothing unexpected in that direction.'
+    and stops the action. (If you would like to handle directions differently,
+    list another rule instead of this one in the carry out examining rules.)Some things have no description property, or rather, have only a blank text
+    as one. It's possible that something interesting may be said anyway (see
+    the rules for directions, containers, supporters and devices), but if not,
+    we give up with a bland response. This is done by the examine undescribed
+    things rule.</p>
+    <hr>
+    <p><b>Typed commands leading to this action</b></p>
+    <p>&quot;look [something]&quot; - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;look at [something]&quot; - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;look into [something]&quot;&nbsp;<a href="source:story.ni#line387"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;look at [something]&quot;&nbsp;<a href="source:story.ni#line395"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;examine [something]&quot; - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;investigate [something]&quot;&nbsp;<a href="source:story.ni#line386"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;ex [something]&quot;&nbsp;<a href="source:story.ni#line389"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;inspect [something]&quot;&nbsp;<a href="source:story.ni#line390"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;study [something]&quot;&nbsp;<a href="source:story.ni#line391"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;peruse [something unreadable]&quot;&nbsp;<a href="source:story.ni#line392"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;analyze [something]&quot;&nbsp;<a href="source:story.ni#line393"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;scrutinize [something]&quot;&nbsp;<a href="source:story.ni#line394"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;admire [something]&quot;&nbsp;<a href="source:story.ni#line396"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;gaze at [something]&quot;&nbsp;<a href="source:story.ni#line397"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;peek at [something]&quot;&nbsp;<a href="source:story.ni#line398"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    &quot;view [something unreadable]&quot;&nbsp;<a href="source:story.ni#line399"><img border=0 src=inform:/doc_images/Reveal.png></a> - <i>examining</i>&nbsp;<a href=Details/12_A.html><img border=0 src=inform:/doc_images/Beneath.png></a><br>
+    </p>
+    <p><b>Named values belonging to this action</b></p>
+    <p class="tightin2">examine text printed - <i>truth state</i></p>
+    <p><b>Rules controlling this action</b></p>
+    <p><p class="indentin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in East End of Stock Pavilion</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9977"><img border=0 src=inform:/doc_images/Reveal.png></a><br>before&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in Ruins of Starbucks</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line13670"><img border=0 src=inform:/doc_images/Reveal.png></a><br>before&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in Campbell Hall</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18962"><img border=0 src=inform:/doc_images/Reveal.png></a><br>before&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in Bathroom CH</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18965"><img border=0 src=inform:/doc_images/Reveal.png></a><br>before&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in CampbellHallInterior</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18968"><img border=0 src=inform:/doc_images/Reveal.png></a><br>before&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in North Campbell Hall</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18971"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+    <p class="indentin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining floor in file room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line16110"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ElmTreesquirrel for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1595"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the impressive elm tree for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line3025"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the DustyPackage for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line4108"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the DustyPackage for the second time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line4110"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Black-top Table for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5828"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining FlickDrawing for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6617"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining BloodMap for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6770"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CornSquirrel for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6890"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Mutant Vegetation the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7058"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SouthQuadBell for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7179"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining familiar person for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7206"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the clip board for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8043"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the AtriumTable for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8413"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining jumping figure the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line10675"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining GraingerBob for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line15864"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Plato Terminal the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line17757"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Plato Terminal the second time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line17760"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Shadow Figure for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19004"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Shadow Figure for the second time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19009"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Shadow Figure for the third time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19013"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Shadow Figure for the fourth time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19017"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Joseph for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19957"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Josip for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20010"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining atomic bomb for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20100"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Changing Room for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20240"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Goggles for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20254"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Backstage Door for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21027"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Mini Krannert for the second time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21503"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Magic8Ball for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22319"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining EspressoVaultKey for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22342"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining girl for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24356"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ShelterPicnicTable for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24629"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining LuckyCoin for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25559"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ResearchHorses for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25584"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining various supplies for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line26626"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CultTile for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29135"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ubiquitousgrass when player is in Center of Quad</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1697"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining small sundial when SundialSet is false</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7711"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining yourself when GotSkates is true</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line12943"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Mini Krannert when RaidCompleted is true</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21509"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining colorful bug when ArmoryMemory is Incompleted</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line28716"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Ancient Dice when DiceMemory is Incompleted</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29059"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the CricketBox when CricketBoxMemory is Incompleted</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29079"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the ChessPiece when ChessPieceMemory is Incompleted</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29108"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining your i-STAR guide when JustinApology is false</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29832"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining your i-STAR guide when JustinApology is true</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29835"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the player when player is in SquirrelHavenMap</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line3061"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining an insect when finely woven net is nowhere</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line27207"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when the player is in McDonaldsInterior and McDonaldsFireCountdown is less than 11 and McDonaldsOnFire is true</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14733"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in EastRaid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21520"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ElmTreeSquirrel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1599"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining UbiquitousSquirrel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1670"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CampusMap</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1711"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining university building</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1927"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining basic clothes</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2011"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining self</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2032"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining your wristwatch</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2060"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the alarm</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2078"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining your available cash</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2151"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining yourphone</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2247"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining text messages</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2296"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Mysterious-Hall-Sign</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2918"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the stone railing</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2980"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the impressive elm tree</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line3027"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining LincolnHallVendingMachine</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line3269"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining HenryCandies</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line3932"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining OldPainting</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line3942"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining HenryDonationBox</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line4043"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Golden Fish</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line4612"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Pandora</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line4878"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Pandora</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line4971"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining MastodonSign</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5190"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining PipeOrgan</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5277"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining BrunDesk</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5297"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Compositions</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5311"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining tapes</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5314"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining green glass bottle</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5358"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Noyes Students</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5785"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Chemistry professor</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5851"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining NoyesDarkness</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5887"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining chem kid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5938"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining physics kid</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line5993"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the luminol trail</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6187"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the eastluminol trail</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6192"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining East Dorms</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6527"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Dorms box</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6532"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Dorm box</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6534"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining 101box</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6553"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CatPoster</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6562"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Right Bed</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6570"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining left bed</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6576"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Oz</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6585"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining 101Alarm Clock</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6591"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining 101Desk</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6599"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining FlickDrawing</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6621"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining 101Window</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6682"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Flick</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6686"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining BloodMap</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6772"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Morrow Plots Kernel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6865"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CornSquirrel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line6893"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Mutant Vegetation</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7060"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SouthQuadBell</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7182"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining familiar person</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7209"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining LostTourGroup</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7249"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining PDSign</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7499"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining White Table</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7588"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Theresa Stargazer</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7645"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining libraryStatues</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7718"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining DeptArgicultureAndBioEngineeringSculpture</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7723"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Computer_B</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line7938"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining LibGuard</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8003"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining LibEmployee</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8050"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CompletePassword</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8147"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Bookcase</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8423"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining a small safe</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8430"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Librarychair</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8721"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining OldLibrarian</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8740"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining stacks</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8878"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining studentsRW</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8884"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining PosterRW</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8890"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining HelpDeskRW</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line8896"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Desk Panel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9216"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining JovansFrontDesk</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9230"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Power Gauntlet</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9249"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Stanley</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9310"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Woodchips</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9592"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining circus items</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9649"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Unicycle</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9664"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining BowlingPins</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9674"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining DeathCard</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9704"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining TheEmperorCard</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9713"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining small lockbox</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9780"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ringleader</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line9968"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining beautiful woman</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line10081"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining business sculpture</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line10401"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining jumping figure</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line10677"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining boring desk</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line10809"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining key card</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line10814"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining glass cup</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line10822"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Monster Cleaner</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line11291"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining stickyNoteB</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line11403"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ADBPoster</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line11469"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Gabe</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line11478"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Creepily Quiet Guy</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line12177"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Table</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line12544"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining an Infinity Within</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line12585"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining The Prophet</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line12733"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the skating professor</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line12980"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Toto</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line13463"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining giant pile of unchecked packages</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line13794"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining lockers</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line13826"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Nate</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14060"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining August the archivist</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14213"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining info minors</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14327"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the angryman</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14349"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Frat Brothers</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14383"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining classmate</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14400"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining calculator</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14489"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the candle</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14529"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the cat</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14532"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining TargetGroceries</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line15321"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining RooftopPool</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line15590"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ParkingGravel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line15834"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ParkingStuntedWeeds</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line15841"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining GraingerBob</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line15866"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining round table</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line16560"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining MELlock</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line16564"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining old dagger</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line16604"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SWOffice table</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line16975"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining EinsteinCoffee</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line17819"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SiebelTrashCan</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line17858"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the professor</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line17886"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Blue Waters</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18210"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Jimmy</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18493"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Media Class Assignment</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18640"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining labRoomPrinter</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18646"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining mechanicalEngineeringTable</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18670"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining chipotleLeftovers</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18682"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining helpdeskBox</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18690"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining helpdeskKeys</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18700"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining mechEngClassroomDesk</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18722"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining eohTshirt</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18731"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining mechEngHelpDeskStudent</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18756"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining printerStudents</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18797"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Laura</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18867"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Chemistry student</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19052"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SewerLidIn</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19115"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SewerLidOut</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19137"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SewerTunnelCieling</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19145"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SSDGGateDoor</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19161"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining NorthGarageDoor</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19207"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SelfDrivingCars</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19214"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SSGDResearchHead</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19223"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SSGDMEStudents</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19245"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SSDGWires</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19259"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SSDGEEStudent</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19279"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining SSDGCSStudent</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19316"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Discarded Fast food Wrapper</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19450"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining empty round table</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19485"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining hungry students</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19550"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining table-wiper</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19574"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ISRDog</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19602"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining amanda</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19620"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining titan</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19739"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Julius</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19871"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Joseph</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line19961"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Josip</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20022"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining atomic bomb</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20104"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Door Close Button</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20220"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Changing Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20243"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Goggles</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20257"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Playhouse Stage Manager</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20708"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Box of Bulbs</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20764"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Playhouse Scrim</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20797"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Pipe 7</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20802"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Line Set 6</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20848"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Line Set 8</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20854"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Line Set 7</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20860"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining s4</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line20887"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Backstage Door</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21031"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the costume rack</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21147"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the KrannertTable</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21420"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Dillon</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21633"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the aholler2toilet</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22192"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the aholler2drain</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22202"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CrumpledBox</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22293"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining UsedTissuePaper</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22302"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining UELuckySpoon</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22304"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining EspressoUpperTables</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22317"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Magic8Ball</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22321"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining EspressoOfficeClutter</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22329"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining UrbanaEspressoVault</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22333"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining EspressoDust</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22340"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining EspressoVaultKey</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22344"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining MilasNecklace</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22349"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining crack</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22576"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Crowd</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22603"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CanopyBartender</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22611"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CanopyBouncer</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22746"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining technicians</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22819"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining HerringTables</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22873"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining mason jar</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22891"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining firestone</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22916"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining stick of hotness</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line22952"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining potted plant</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23377"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining creaky drawer</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23394"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining wooden cabinet</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23409"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the Rasmussen poem</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23489"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Foyer Ficus</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23602"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining birdwatcher</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23689"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Robin</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23783"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining justinfloor</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line23986"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ViolinMan</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24297"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining violin</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24300"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining vampire lord</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24333"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining girl</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24359"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining box of fun</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24403"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the dumpster</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24505"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ShelterPicnicTable</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line24631"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the colorfulshirt</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25029"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ArborBlueToolbox</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25360"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ArborRedToolbox</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25392"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ResearchHorses</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25587"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining ElectronicBookshelf</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25729"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining StrangeBook</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25738"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Metallic Lock-panel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25774"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Secret Agent</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25828"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining MetallicDome</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line25921"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining various supplies</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line26631"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining golden key</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line26642"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining bright star</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line27051"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Jeff</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line27106"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining golden chest</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line27513"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining leaf</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line28137"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the WorldSquirrel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line28337"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining InformationDesk</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line28935"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining patterns</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29010"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining CultTile</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29140"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Desks</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29288"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Blackboard</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29295"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Experiment Book</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29338"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining old framed photograph</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29348"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Welcogami</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29484"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining WelcomeSquirrel</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29500"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining HelpDeskReceptionist</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29778"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining an obj listed in the Table of plant descriptions</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line17429"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining player</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1999"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining a machine problem</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18053"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining a receptacle</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line27295"><img border=0 src=inform:/doc_images/Reveal.png></a><br>instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>examining a MorrowMonsterDoor</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line29317"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+    <p class="indentin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>examining lockers</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line13708"><img border=0 src=inform:/doc_images/Reveal.png></a><br>check&nbsp;&nbsp;&nbsp;&nbsp;<i>examining a Weirdbox</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line26017"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+    <p class="indentin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>examining an unexamined scored thing</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21960"><img border=0 src=inform:/doc_images/Reveal.png></a><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line13439"><img border=0 src=inform:/doc_images/Reveal.png></a><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line26817"><img border=0 src=inform:/doc_images/Reveal.png></a><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">standard examining rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('standard examining rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The standard examining rule response (carry out examining rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">examine directions rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('examine directions rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The examine directions rule response (carry out examining rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">examine containers rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('examine containers rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The examine containers rule response (carry out examining rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">examine supporters rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('examine supporters rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The examine supporters rule response (carry out examining rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">examine devices rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('examine devices rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The examine devices rule response (carry out examining rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i><br>carry out&nbsp;&nbsp;&nbsp;&nbsp;<span class="indexdullred">examine undescribed things rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('examine undescribed things rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The examine undescribed things rule response (carry out examining rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <p class="indentin2">after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining fraternity badge for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14559"><img border=0 src=inform:/doc_images/Reveal.png></a><br>after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Mini Krannert for the first time</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line21500"><img border=0 src=inform:/doc_images/Reveal.png></a><br>after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something when player is in FablabInterior</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line26992"><img border=0 src=inform:/doc_images/Reveal.png></a><br>after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining the mirror</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line11091"><img border=0 src=inform:/doc_images/Reveal.png></a><br>after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining shattered glass</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line14459"><img border=0 src=inform:/doc_images/Reveal.png></a><br>after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining Talbotstudents</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line18332"><img border=0 src=inform:/doc_images/Reveal.png></a><br>after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something for sale</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2166"><img border=0 src=inform:/doc_images/Reveal.png></a><br>after&nbsp;&nbsp;&nbsp;&nbsp;<i>examining something</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line171"><img border=0 src=inform:/doc_images/Reveal.png></a></p>
+    <p class="indentin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor examining</i>&nbsp;&nbsp;<span class="indexdullred">report other people examining rule</span>&nbsp;&nbsp;<a href="javascript:pasteCode('report other people examining rule')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <a href="javascript:pasteCode('The report other people examining rule response (report examining rulebook) is [=0x0022=]New text.[=0x0022=].')"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    </p>
+
+    <!--CONTENT ENDS-->
+</body>
+</html>
