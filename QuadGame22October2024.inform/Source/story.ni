@@ -11600,6 +11600,8 @@ Instead of entering MeetingRoom1070:
 	stop the action.
 
 
+[TESTING]
+
 
 [-------- Bottom Floor —-----]
 End of Ramp is down of ramp.
