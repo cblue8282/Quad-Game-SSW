@@ -1,18 +1,18 @@
 ! Blurb file created by Inform Inform 10.1.2 (build )
 
-status "/Applications/Inform.app/Contents/Resources/Internal/HTML/CblorbModel.html" "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Build/StatusCblorb.html"
+status "/Applications/Inform.app/Contents/Resources/Internal/HTML/CblorbModel.html" "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform"
-release to "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.materials/Release"
+project folder "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform"
+release to "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Quad Game: Welcome to the U.gblorb"
-storyfile "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Build/output.ulx" include
-ifiction "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Metadata.iFiction" include
+storyfile "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Build/output.ulx" include
+ifiction "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Metadata.iFiction" include
 cover "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
 picture 1 "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
 release file "/Applications/Inform.app/Contents/Resources/Internal/Miscellany/DefaultCover.jpg"
@@ -33,18 +33,18 @@ placeholder [BLURB] = "A work of interactive fiction."
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "The Quad Game: Welcome to the U.gblorb.js"
-template path "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.materials/Templates"
-template path "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.materials/Templates"
+template path "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.materials/Templates"
+template path "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.materials/Templates"
 template path "/Users/csung2022/Library/Inform/Templates"
 template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
 placeholder [INTERPRETERSCRIPTS] = " "
 interpreter "Quixe" "g"
-base64 "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Build/output.ulx" to "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.materials/Release/interpreter/The Quad Game: Welcome to the U.gblorb.js"
+base64 "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Build/output.ulx" to "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.materials/Release/interpreter/The Quad Game: Welcome to the U.gblorb.js"
 
 ! Website instructions
 
-template path "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.materials/Templates"
-template path "/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.materials/Templates"
+template path "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.materials/Templates"
+template path "/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.materials/Templates"
 template path "/Users/csung2022/Library/Inform/Templates"
 template path "/Applications/Inform.app/Contents/Resources/Internal/Templates"
 css

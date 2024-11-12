@@ -4,7 +4,900 @@
     <generator>Inform Mac Client (Inform version 1.82/6.41/10.1.2)</generator>
     <item nodeId="node-2420">
         <command xml:space="preserve">QuadGame22October2024</command>
-        <result xml:space="preserve"></result>
+        <result xml:space="preserve">
+
+
+
+The Quad Game: Welcome to the University of Illinois
+An Interactive Fiction by the Electronic Literatures &amp; Literacies Lab
+Release 1 / Serial number 241112 / Inform 7 v10.1.2 / D
+
+The Quad Game is an Interactive Fiction sandbox created at the University of Illinois Urbana Champaign. To date it has had 100+ authors who have written 258,155 words,  creating 815 locations, 1693 things, 239 persons, and 67 narrative resolutions but no ending. Like all sandboxes, this one has bugs. New authors learn to write code by finding and fixing them, invariably leaving new bugs for future contributors to find. The Quad Game is a text-based game. What you can do will be context-specific but here are the basics: 
+
+ LOOK (L) helps you to recall where you are.
+ EXAMINE (X) things listed in descriptions and TAKE whatever you can.
+ INVENTORY (I) shows you what you are carrying.
+ GO north or any other cardinal direction (N, NW, NE, S, SW, SE, W, E), or up and down. 
+ GO in(side), out(side), ENTER or EXIT campus buildings or enterable containers. 
+ WHICH WAY (WAY) provides available directions.
+ TALK TO people and ASK them ABOUT relevant topics.
+ SNAPor PHOTOGRAPH things you find curious or beautiful. 
+ STATUS will show your progress.
+ HELP will repeat these instructions. CREDITS will give credit where credit is due. 
+ Finally, SAVE your game before you QUIT or your progress will be lost!
+
+Siebel Center for Design
+You are standing outside the west entrance of the Center for Design. You can enter it from here, go north to George Huff Hall or south to Art and Design. Flagg Hall is due west, across the street.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2508"></child>
+            <child nodeId="node-2433"></child>
+        </children>
+    </item>
+    <item nodeId="node-2433">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You try to go southwest but find yourself unable to do so. How about going west?
+
+You have noticed the summer days getting shorter and the air getting crisper. Autumn is here and the fall semester at the University of Illinois has already well begun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2434"></child>
+        </children>
+    </item>
+    <item nodeId="node-2434">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going inside?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2435"></child>
+        </children>
+    </item>
+    <item nodeId="node-2435">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You try to go southwest but find yourself unable to do so. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2436"></child>
+        </children>
+    </item>
+    <item nodeId="node-2436">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Flagg Hall
+This building's history as a dorm is obvious from its exterior. Now it houses the studios for several different majors in the college of Art and Design. The entrance that most people use is a wheel-chair ramp on the east side of the building. The grander front doors sit unused off of the south side of the building.
+
+Far to the east is the Architecture Building.  Inside the door in front of you is the 1st floor of Flagg Hall.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2437"></child>
+        </children>
+    </item>
+    <item nodeId="node-2437">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going east?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2438"></child>
+        </children>
+    </item>
+    <item nodeId="node-2438">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Taft Van Doren Hall
+From here, you can go north, south or east.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2439"></child>
+        </children>
+    </item>
+    <item nodeId="node-2439">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Irwin Indoor Football facility
+You are standing in front of Irwin Indoor Football Facility at the east of the ARC. There is a truly enormous statue of a football player here. You can see Taft Van Doren Hall to the north, the ARC is to the west, and the School of Art and Design is to the northeast.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2440"></child>
+        </children>
+    </item>
+    <item nodeId="node-2440">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going west?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2441"></child>
+        </children>
+    </item>
+    <item nodeId="node-2441">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Activity and Recreation Center.
+You are standing outside "the ARC" at the University of Illinois at Urbana-Champaign, a multifunctional center that includes gym, classrooms for yoga, cooking, dancing and so on, swimming pool, and meeting rooms. You can go east from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2442"></child>
+        </children>
+    </item>
+    <item nodeId="node-2442">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Illini Stadium
+You are standing outside the Big Ten Football field where the Illini play. There's nothing happening her at the moment, and the doors are locked. You can return to the ARC to the north and to the Indoor Football Facility to the northeast.
+
+You hear a brief, but lovely set of harmonic dings, downloaded from a recording of a Tuvan throat singer, that indicates you have received a text.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2443"></child>
+        </children>
+    </item>
+    <item nodeId="node-2443">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going northeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2444"></child>
+        </children>
+    </item>
+    <item nodeId="node-2444">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2445"></child>
+        </children>
+    </item>
+    <item nodeId="node-2445">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You try to go south but find yourself unable to do so. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2446"></child>
+        </children>
+    </item>
+    <item nodeId="node-2446">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You try to go south but find yourself unable to do so. How about going northeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2447"></child>
+        </children>
+    </item>
+    <item nodeId="node-2447">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You try to go west but find yourself unable to do so. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2448"></child>
+        </children>
+    </item>
+    <item nodeId="node-2448">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Activity and Recreation Center.
+You are standing outside "the ARC" at the University of Illinois at Urbana-Champaign, a multifunctional center that includes gym, classrooms for yoga, cooking, dancing and so on, swimming pool, and meeting rooms. You can go east from here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2449"></child>
+        </children>
+    </item>
+    <item nodeId="node-2449">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+ARC Parking Lot
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2450"></child>
+        </children>
+    </item>
+    <item nodeId="node-2450">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You try to go west but find yourself unable to do so. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2451"></child>
+        </children>
+    </item>
+    <item nodeId="node-2451">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You try to go west but find yourself unable to do so. How about going east?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2452"></child>
+        </children>
+    </item>
+    <item nodeId="node-2452">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You try to go west but find yourself unable to do so. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2453"></child>
+        </children>
+    </item>
+    <item nodeId="node-2453">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You try to go west but find yourself unable to do so. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2454"></child>
+        </children>
+    </item>
+    <item nodeId="node-2454">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You struggle for a while trying to make your way west, but alas it seems you won't be going that way. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2455"></child>
+        </children>
+    </item>
+    <item nodeId="node-2455">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Bousfield Hall
+Your phone dings harmonically.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2456"></child>
+        </children>
+    </item>
+    <item nodeId="node-2456">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hopkins Hall
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2457"></child>
+        </children>
+    </item>
+    <item nodeId="node-2457">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Wassaja Hall
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2508">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You try to go east but find yourself unable to do so. How about going inside?
+
+You have noticed the summer days getting shorter and the air getting crisper. Autumn is here and the fall semester at the University of Illinois has already well begun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2509"></child>
+        </children>
+    </item>
+    <item nodeId="node-2509">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">
+West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2510"></child>
+            <child nodeId="node-2528"></child>
+        </children>
+    </item>
+    <item nodeId="node-2528">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Front of elevator
+In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says "Out of Order"
+
+There's a small panel next to the elevator doors, but the button part is smoothed over. A keyhole sits underneath. This is weird, considering there's another normal down button on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2529"></child>
+        </children>
+    </item>
+    <item nodeId="node-2529">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+ Meeting room 1070 
+ Right before you walk into the meeting room you notice that it is occupied. You decide not to be rude and let the meeting continue.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2530"></child>
+        </children>
+    </item>
+    <item nodeId="node-2530">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going southeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2531"></child>
+        </children>
+    </item>
+    <item nodeId="node-2531">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Front of elevator
+In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says "Out of Order"
+
+There's a small panel next to the elevator doors, but the button part is smoothed over. A keyhole sits underneath. This is weird, considering there's another normal down button on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2532"></child>
+        </children>
+    </item>
+    <item nodeId="node-2532">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Front entrance
+A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2533"></child>
+        </children>
+    </item>
+    <item nodeId="node-2533">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+South Terrace
+A lesser used entrance to the Seibel Design Center. You are also not that far from the Art and Design building.
+
+You can see Cat Plushie here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2534"></child>
+        </children>
+    </item>
+    <item nodeId="node-2534">
+        <command xml:space="preserve">take plushie</command>
+        <result xml:space="preserve">you take the adorable cat plush into your inventory.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2544"></child>
+        </children>
+    </item>
+    <item nodeId="node-2544">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Front entrance
+A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2545"></child>
+        </children>
+    </item>
+    <item nodeId="node-2545">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Top of Southwest Stairway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2546"></child>
+        </children>
+    </item>
+    <item nodeId="node-2546">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going down?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2547"></child>
+        </children>
+    </item>
+    <item nodeId="node-2547">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You try to go north but find yourself unable to do so. How about going west?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2548"></child>
+        </children>
+    </item>
+    <item nodeId="node-2548">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You struggle for a while trying to make your way east, but alas it seems you won't be going that way. How about going down?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2549"></child>
+        </children>
+    </item>
+    <item nodeId="node-2549">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You try to go north but find yourself unable to do so. How about going down?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2550"></child>
+        </children>
+    </item>
+    <item nodeId="node-2550">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You try to go south but find yourself unable to do so. How about going down?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2551"></child>
+        </children>
+    </item>
+    <item nodeId="node-2551">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Front entrance
+A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2552"></child>
+        </children>
+    </item>
+    <item nodeId="node-2552">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Front of elevator
+In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says "Out of Order"
+
+There's a small panel next to the elevator doors, but the button part is smoothed over. A keyhole sits underneath. This is weird, considering there's another normal down button on the other side.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2553"></child>
+        </children>
+    </item>
+    <item nodeId="node-2553">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">You try to go northwest but find yourself unable to do so. How about going south?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2573"></child>
+        </children>
+    </item>
+    <item nodeId="node-2573">
+        <command xml:space="preserve">nn</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2574"></child>
+        </children>
+    </item>
+    <item nodeId="node-2574">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2575"></child>
+        </children>
+    </item>
+    <item nodeId="node-2575">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Classroom 1002
+A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2576"></child>
+        </children>
+    </item>
+    <item nodeId="node-2576">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2577"></child>
+        </children>
+    </item>
+    <item nodeId="node-2577">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gallery
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2578"></child>
+        </children>
+    </item>
+    <item nodeId="node-2578">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Main Floor Restrooms
+You hear a brief, but lovely set of harmonic dings, downloaded from a recording of a Tuvan throat singer, that indicates you have received a text.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2579"></child>
+        </children>
+    </item>
+    <item nodeId="node-2579">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You try to go north but find yourself unable to do so. How about going south?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2580"></child>
+        </children>
+    </item>
+    <item nodeId="node-2580">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Gallery
+Your phone dings harmonically.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2581"></child>
+        </children>
+    </item>
+    <item nodeId="node-2581">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Multimedia room
+A digital production lab for all your storytelling needs. Create your videos, podcast, and also, eat ice-cream here is very welcome.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2582"></child>
+        </children>
+    </item>
+    <item nodeId="node-2582">
+        <command xml:space="preserve">eat ice cream</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2583"></child>
+        </children>
+    </item>
+    <item nodeId="node-2583">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going southeast?
+
+Your phone dings harmonically.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2584"></child>
+        </children>
+    </item>
+    <item nodeId="node-2584">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Gallery
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2585"></child>
+        </children>
+    </item>
+    <item nodeId="node-2585">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Main Floor Restrooms
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2586"></child>
+        </children>
+    </item>
+    <item nodeId="node-2586">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Gallery
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2587"></child>
+        </children>
+    </item>
+    <item nodeId="node-2587">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Main Lobby
+Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain's chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+Your phone dings harmonically.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2588"></child>
+        </children>
+    </item>
+    <item nodeId="node-2588">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Main Office
+(Looks terrible) Administrators" here. Stop by to ask your questions.
+
+You can see Teacher Plushie here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2589"></child>
+        </children>
+    </item>
+    <item nodeId="node-2589">
+        <command xml:space="preserve">take plushie</command>
+        <result xml:space="preserve">(Teacher Plushie)
+you take the cute plush of  teacher's into your inventory
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2590"></child>
+        </children>
+    </item>
+    <item nodeId="node-2590">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Main Lobby
+Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain's chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2591"></child>
+        </children>
+    </item>
+    <item nodeId="node-2591">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Starlight Cafe
+ No starlight but more Sunlight shines through on you, you can finish your pizza here. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2592"></child>
+        </children>
+    </item>
+    <item nodeId="node-2592">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+Main Lobby
+Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain's chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2593"></child>
+        </children>
+    </item>
+    <item nodeId="node-2593">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+SunriseStudio 1040
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2594"></child>
+        </children>
+    </item>
+    <item nodeId="node-2594">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Main Lobby
+Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain's chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2595"></child>
+        </children>
+    </item>
+    <item nodeId="node-2595">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Gallery
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2596"></child>
+        </children>
+    </item>
+    <item nodeId="node-2596">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Main Lobby
+Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain's chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+You are starting to get a headache from lack of caffeine. Perhaps you should find some coffee?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2597"></child>
+        </children>
+    </item>
+    <item nodeId="node-2597">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Top of Southeast Stairway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2598"></child>
+        </children>
+    </item>
+    <item nodeId="node-2598">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You struggle for a while trying to make your way west, but alas it seems you won't be going that way. How about going north?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2599"></child>
+        </children>
+    </item>
+    <item nodeId="node-2599">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going northwest?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2600"></child>
+        </children>
+    </item>
+    <item nodeId="node-2600">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Upper Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2601"></child>
+        </children>
+    </item>
+    <item nodeId="node-2601">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+SunsetStudio 1050
+ Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2602"></child>
+        </children>
+    </item>
+    <item nodeId="node-2602">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Upper Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2603"></child>
+        </children>
+    </item>
+    <item nodeId="node-2603">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You try to go west but find yourself unable to do so. How about going southwest?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2604"></child>
+        </children>
+    </item>
+    <item nodeId="node-2604">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+MoonlightBay 1060
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2605"></child>
+        </children>
+    </item>
+    <item nodeId="node-2605">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You struggle for a while trying to make your way north, but alas it seems you won't be going that way. How about going northeast?
+
+You feel your caffeine headache getting worse.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2606"></child>
+        </children>
+    </item>
+    <item nodeId="node-2606">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">You try to go northwest but find yourself unable to do so. How about going northeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2607"></child>
+        </children>
+    </item>
+    <item nodeId="node-2607">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You try to go south but find yourself unable to do so. How about going northeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2608"></child>
+        </children>
+    </item>
+    <item nodeId="node-2608">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Upper Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2609"></child>
+        </children>
+    </item>
+    <item nodeId="node-2609">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You try to go west but find yourself unable to do so. How about going southeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2510">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Classroom 1000
+A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers. Strangely, you notice a lonely backpack sitting on top one of the tables. Some student must have forgotten it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2511"></child>
+        </children>
+    </item>
+    <item nodeId="node-2511">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You try to go east but find yourself unable to do so. How about going southeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2512"></child>
+        </children>
+    </item>
+    <item nodeId="node-2512">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2513"></child>
+        </children>
+    </item>
+    <item nodeId="node-2513">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going northwest?
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>

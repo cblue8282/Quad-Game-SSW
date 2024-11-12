@@ -1334,7 +1334,8 @@ After printing the banner text:
 
 [	 [bold type]STATUS [roman type]tells you how many endings you have found.[line break]   ]
 
-The player is in Center of the Quad.
+[The player is in Center of the Quad.] [CHANGE BACK BEFORE SENDING]
+The player is in Western SCD.
 
 Center of the Quad is a room.  "You are standing in the center of the main quad on the University of Illinois campus. You are surrounded by a sea of grass, criss-crossed with sidewalks that lead in all directions. You are free to choose your own path."
 The printed name of Center of the Quad is "Center of the Quad".
@@ -11532,33 +11533,32 @@ EasternSCD is a roomproxy in Eastern SCD.
 The printed name of EasternSCD is "Siebel Center for Design".
 Understand "Siebel" and "Design Center" and "SCD" and "Siebel Center" and "Siebel Center for Design" as EasternSCD. 
 
-EasternSCDInterior is inside from Eastern SCD and west of SCDMainLobby. "You are standing at the east entrance of the Siebel Center for Design, locally known as 'SCD'. There are some chairs here that you can sit around in and be able to study in with a overhang acting as a small protection against harsh sunlight and rain. From here you can go north to the cafe or west to explore the building." 
+EasternSCDInterior is inside from Eastern SCD and east of SCDMainLobby. "You are standing at the east entrance of the Siebel Center for Design, locally known as 'SCD'. There are some chairs here that you can sit around in and be able to study in with a overhang acting as a small protection against harsh sunlight and rain. From here you can go north to the cafe or west to explore the building." 
 The printed name of EasternSCDInterior is "East Terrace." 
-EasternSCDInterior is an interior location. 
-
+EasternSCDInterior is an interior location. 				
 
 Classroom 1000 is northwest of WesternSCDInterior.
 The description of Classroom 1000 is "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers. Strangely, you notice a lonely backpack sitting on top one of the tables. Some student must have forgotten it."
 
-Classroom 1002 is southwest of WesternSCDInterior.
+Classroom 1002 is north of WesternSCDInterior.
 The description of Classroom 1002 is "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers."
 
-SCDGallery is north of WesternSCDInterior.
+SCDGallery is east of WesternSCDInterior.
 The description of Gallery is "[if unvisited] You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. [else] There looks to be some students hanging around this area, but there is still enough free seats for you to sit down and have a rest."
 The printed name of SCDGallery is "Gallery".
 
-Multimedia room is southwest of SCDGallery.
-The description of Multimedia room is "A digital production lab for all your storytelling needs. Create your videos, podcast, and also, eat ice-cream here is very welcome."
+Multimedia room is northwest of SCDGallery and northeast of WesternSCDInterior.
+The description of Multimedia room is "A digital production lab for all your storytelling needs. Record your videos and podcasts — also feel free to eat some ice cream (BYOIC)."
 
-SCDMainFloorRestrooms is northwest of SCDGallery.
+SCDMainFloorRestrooms is north of SCDGallery.
 The description of Main floor restrooms is "[if unvisited] You take a deep breath before going into the restroom. You blink and let out a pleasantly surprised gasp, the restroom is cleaner than you first thought. You peek inside one of the stalls and aren't greeted with a dirty looking toilet with some toilet paper sitting inside the bowl. [paragraph break] You let out a ‘huh' as you step back and marvel at how clean it looks despite being a public restroom. It must be because the building is still new. So you count yourself lucky at seeing this restroom while it is still clean. [else] A clean looking restroom greets you, looks like it is being well kept by the janitors today."
 The printed name of SCDMainFloorRestrooms is "Main Floor Restrooms".
 
-SCDMainLobby is north of SCDGallery.
+SCDMainLobby is east of SCDGallery.
 The description of SCDMainLobby is "Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain’s chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away."
 The printed name of SCDMainLobby is "Main Lobby".
 
-SCDMainOffice is southwest of SCDMainLobby.
+SCDMainOffice is northwest of SCDMainLobby and northeast of SCDGallery.
 The description of SCDMainOffice is "(Looks terrible) Administrators’ here. Stop by to ask your questions."
 The printed name of SCDMainOffice is "Main Office".
 
@@ -11568,42 +11568,51 @@ The description of Kitchen is "[if unvisited] Seems not done yet but, there does
 The printed name of SCDKitchen is "Kitchen"
 ]
 
-Starlight Cafe is northwest of SCDMainLobby.
+Starlight Cafe is northeast of SCDMainLobby. [wait what]
 The description of Starlight Cafe is "[if unvisited] No starlight but more Sunlight shines through on you, you can finish your pizza here. [else] you see the beautiful view of East Terrace and the bike side. There are some broken pumpkins left on the ground. "
 
-Concierge is east of SCDMainLobby. 
-
+[Concierge is east of SCDMainLobby. [what is this]
 Sunrise Studios is east of Concierge.
-
-Small hallway is south of Concierge.
+Small hallway is south of Concierge.]
+	
+SunriseStudio 1040 is southeast of SCDMainLobby.
+	
+Upper Hallway is southwest of SCDMainLobby.
 The description of Small hallway is "the pathway in front of you leads you to go north, south, or maybe into Sunset Studio to the northeast or the Garage to the southeast."
 
-SunsetStudio 1050 is northeast of Small hallway.
+Top of Southeast Stairway is south of SCDMainLobby and southeast of Upper Hallway.
+
+SunsetStudio 1050 is south of Upper Hallway.
 
 The description of SunsetStudio 1050 is "[if unvisited] Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. [else] You remember not to disturb the working students but also recall the WhiteBoards there."
+	
+MoonlightBay 1060 is southwest of Upper Hallway.
 
-Garage is southeast of Small_Hallway.
+[Garage is southeast of Upper Hallway]
 
-Front of elevator is south of small hallway and northeast of Front entrance.
-The description of Front of elevator is "in front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’"
+Front of elevator is south of WesternSCDInterior and west of upper hallway.
+The description of Front of elevator is "In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’" [i can fix this methinks]
 
-South Terrace is east of Front of elevator.
+Front entrance is south of Front of elevator.
+The description of Front entrance is "A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building."
+
+Top of Southwest Stairway is east of front entrance.
+
+South Terrace is south of front entrance.
 The description of South Terrace is "A lesser used entrance to the Seibel Design Center. You are also not that far from the Art and Design building."
 
-MeetingRoom1070 is south of Front of elevator and east of front entrance.
-Ramp is down of Front of elevator.
+MeetingRoom1070 is west of Front of elevator and northwest of front entrance.
+Ramp is down of WesternSCDInterior.
 The printed name of MeetingRoom1070 is "[if unvisited] Meeting room 1070 [else] taken meeting room".
+
 The description of MeetingRoom1070 is " Right before you walk into the meeting room you notice that it is occupied. You decide not to be rude and let the meeting continue."
 
 Instead of entering MeetingRoom1070:
 	say "You forgot that the meeting is occupied and should not barge in at the moment. Maybe some time later they will finish up and you can check out the meeting room.";
 	stop the action.
 
-
-[TESTING]
-
-
 [-------- Bottom Floor —-----]
+Bottom of southwest stairway is down from Top of Southwest Stairway.
 End of Ramp is down of ramp.
 
 Amphitheater is east of End of Ramp.
@@ -11617,11 +11626,11 @@ The description of Lower Restrooms is "[if unvisited]Much like its main floor co
 Lower Lobby is south of End of ramp.
 The description of Lower Lobby is "[if unvisited] While not as big as the main lobby, it still has some desks and even four couches for students to lounge in. A few students have already taken advantage of the two of the couches. [else] A small lobby for students to study in."
 
-Hallway is east of Lower Lobby and south of Study hallway.
+Lower Hallway is east of Lower Lobby and south of Study hallway.
 
-Twilight Studio is east of Hallway. "Tables and chairs sit at equal distances apart across the room. Tall rolling whiteboards separate them. Unlike the Sunset Studio upstairs, there is a depressing lack of both color and sunlight. [if SCDBentNail is in Twilight Studio]As you stroll through the room, you spot a bent nail sticking out of the wall. You might be able to hammer it back in place with something."
+Twilight Studio is east of Lower Hallway. "Tables and chairs sit at equal distances apart across the room. Tall rolling whiteboards separate them. Unlike the Sunset Studio upstairs, there is a depressing lack of both color and sunlight. [if SCDBentNail is in Twilight Studio]As you stroll through the room, you spot a bent nail sticking out of the wall. You might be able to hammer it back in place with something."
 
-Classroom 60 is southeast of Hallway.
+Classroom 60 is southeast of Lower Hallway.
 
 Checkout window is north of End of Ramp.
 

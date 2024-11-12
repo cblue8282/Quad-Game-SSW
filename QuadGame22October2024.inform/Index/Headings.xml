@@ -9,2199 +9,2199 @@
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>1</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>1</integer>
         <key>Title</key><string>--</string>
         <key>Level</key><integer>0</integer>
         <key>Indentation</key><integer>0</integer>
     </dict>
     <key>2</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>3</integer>
         <key>Title</key><string>VOLUME 1 - SETTING THE STAGE</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>3</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>5</integer>
         <key>Title</key><string>BOOK 1 - BACKSTAGE SET-UP</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>4</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>7</integer>
         <key>Title</key><string>PART 1 - DATA SETTINGS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>5</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>21</integer>
         <key>Title</key><string>PART 2 - EXTENSIONS and RELEASE INFORMATION</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>6</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>37</integer>
         <key>Title</key><string>PART 3 - RULEBOOK CHANGES and GLOBAL DEFAULTS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>7</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>53</integer>
         <key>Title</key><string>PART 4 - DEBUGGING TOOLS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>8</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>55</integer>
         <key>Title</key><string>Chapter 1 -</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>9</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>104</integer>
         <key>Title</key><string>Chapter 2 - Backdoors</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>10</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>123</integer>
         <key>Title</key><string>Chapter 3 - Debugging Seasons</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>11</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>144</integer>
         <key>Title</key><string>PART 5 - INTERNAL FUNCTIONS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>12</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>161</integer>
         <key>Title</key><string>BOOK 2 - ASSERTIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>13</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>163</integer>
         <key>Title</key><string>PART 1 - PROPERTIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>14</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>165</integer>
         <key>Title</key><string>Chapter 1 - Properties of Things</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>15</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>204</integer>
         <key>Title</key><string>Chapter 2 - Properties of People</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>16</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>210</integer>
         <key>Title</key><string>Chapter 3 - Properties of Rooms</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>17</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>218</integer>
         <key>Title</key><string>PART 2 - KINDS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>18</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>220</integer>
         <key>Title</key><string>Chapter 1 - Kinds of Things</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>19</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>265</integer>
         <key>Title</key><string>Chapter 2 - Kinds of Specialized Things</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>20</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>288</integer>
         <key>Title</key><string>Chapter 3 - Kinds of People</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>21</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>301</integer>
         <key>Title</key><string>Chapter 4 - Kinds of Values</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>22</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>313</integer>
         <key>Title</key><string>Chapter 5 - Kinds of Rooms and Regions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>23</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>325</integer>
         <key>Title</key><string>PART 3 - DEFAULT RULES FOR WHOLE MAP</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>24</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>335</integer>
         <key>Title</key><string>BOOK 3 - ACTIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>25</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>337</integer>
         <key>Title</key><string>PART 1 - EXISTING ACTIONS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>26</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>339</integer>
         <key>Title</key><string>Chapter 1 - Synonyms for Existing Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>27</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>497</integer>
         <key>Title</key><string>Chapter 2 - Blocked Actions, Something New, and Changed Defaults</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>28</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>552</integer>
         <key>Title</key><string>PART 2 - Extra-diegetic Actions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>29</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>562</integer>
         <key>Title</key><string>PART 3 - NEW ACTIONS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>30</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>564</integer>
         <key>Title</key><string>Chapter 1 -- Conversing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>31</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>622</integer>
         <key>Title</key><string>Chapter 2 - Other Communication</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>32</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>682</integer>
         <key>Title</key><string>Chapter 3 - Animal-related Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>33</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>729</integer>
         <key>Title</key><string>Chapter 4 - Fighting</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>34</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>785</integer>
         <key>Title</key><string>Chapter 5 - Bodily Functions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>35</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>873</integer>
         <key>Title</key><string>Chapter 6 - Psychological Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>36</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>932</integer>
         <key>Title</key><string>Chapter 7 - Investigatory Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>37</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>961</integer>
         <key>Title</key><string>Chapter 8 - Fixing Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>38</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>982</integer>
         <key>Title</key><string>Chapter 9 - Actions that are Performances</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>39</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>1012</integer>
         <key>Title</key><string>Chapter 10 - Actions that Make Something</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>40</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>1035</integer>
         <key>Title</key><string>Chapter 11 - Physical Actions</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>41</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>1314</integer>
         <key>Title</key><string>VOLUME 2 - THE GAME WORLD</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>42</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>1316</integer>
         <key>Title</key><string>BOOK 1 - LAUNCHING THE WORLD</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>43</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
         <key>Line</key><integer>1318</integer>
         <key>Title</key><string>PART 1 - Opening Screen</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>44</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1357</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1358</integer>
         <key>Title</key><string>PART 2 - When Play Begins</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>45</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1369</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1370</integer>
         <key>Title</key><string>PART 3 - Special Events</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>46</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1444</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1445</integer>
         <key>Title</key><string>PART 4 - Universal Backdrops</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>47</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1487</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1488</integer>
         <key>Title</key><string>PART 5 - Squirrels</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>48</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1690</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1691</integer>
         <key>Title</key><string>PART 6 - Campus Map</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>49</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1757</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1758</integer>
         <key>Title</key><string>PART 7 - Room Proxies</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>50</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1993</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1994</integer>
         <key>Title</key><string>BOOK 2 - THE PLAYER</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>51</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>1995</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>1996</integer>
         <key>Title</key><string>PART 1 - The Player's Belongings</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>52</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2047</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2048</integer>
         <key>Title</key><string>PART 2 - The Player's Wristwatch</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>53</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2140</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2141</integer>
         <key>Title</key><string>PART 3 - The Player's Wallet</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>54</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2186</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2187</integer>
         <key>Title</key><string>PART 4 - The Player's Best Friend</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>55</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2238</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2239</integer>
         <key>Title</key><string>PART 5 - The Player's Phone</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>56</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2240</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2241</integer>
         <key>Title</key><string>Chapter 1 - Phone Rules</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>57</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2288</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2289</integer>
         <key>Title</key><string>Chapter 2 - Checking Messages</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>58</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2340</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2341</integer>
         <key>Title</key><string>Chapter 3 - Sending a Text</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>59</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2383</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2384</integer>
         <key>Title</key><string>Chapter 4 - Taking Pictures</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>60</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2450</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2451</integer>
         <key>Title</key><string>PART 6 - QuestGiver</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>61</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2464</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2465</integer>
         <key>Title</key><string>BOOK 3 - DAYS AND SEASONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>62</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2466</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2467</integer>
         <key>Title</key><string>PART 1 - Seasons as Backgrounds and Scenes</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>63</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2557</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2558</integer>
         <key>Title</key><string>PART 2 - Days, Seasons, and Changing Weather</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>64</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2620</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2621</integer>
         <key>Title</key><string>PART 3 3 Weather Conditions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>65</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2718</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2719</integer>
         <key>Title</key><string>PART 4 - Changing the Weather</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>66</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2757</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2758</integer>
         <key>Title</key><string>PART 5 - Reporting the Weather</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>67</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2810</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2811</integer>
         <key>Title</key><string>VOLUME 3 - THE MAIN QUAD</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>68</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2812</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2813</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>69</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2865</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2866</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>70</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2867</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2868</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>71</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2968</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2969</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>72</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2970</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2971</integer>
         <key>Title</key><string>Chapter 1 - Stone Railing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>73</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>2987</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>2988</integer>
         <key>Title</key><string>Chapter 2 - Eternal Flame</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>74</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>3009</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>3010</integer>
         <key>Title</key><string>Chapter 3 - Elm Tree</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>75</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>3147</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>3148</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>76</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>3149</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>3150</integer>
         <key>Title</key><string>PART 1 - FOELLINGER</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>77</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>3217</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>3218</integer>
         <key>Title</key><string>PART 2 - LINCOLN HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>78</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>3519</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>3520</integer>
         <key>Title</key><string>PART 3 - ENGLISH BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>79</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>3889</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>3890</integer>
         <key>Title</key><string>PART 4 - HENRY ADMIN</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>80</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>4091</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>4092</integer>
         <key>Title</key><string>PART 5 - ALTGELD HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>81</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>4376</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>4377</integer>
         <key>Title</key><string>PART 6 - ILLINI UNION</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>82</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>5143</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>5144</integer>
         <key>Title</key><string>PART 7 - HARKER HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>83</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>5165</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>5166</integer>
         <key>Title</key><string>PART 8 - NATURAL HISTORY BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>84</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>5664</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>5665</integer>
         <key>Title</key><string>PART 9 - NOYES LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>85</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>6272</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>6273</integer>
         <key>Title</key><string>PART 10 - DAVENPORT HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>86</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>6302</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>6303</integer>
         <key>Title</key><string>PART 11 - FOREIGN LANGUAGE BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>87</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>6515</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>6516</integer>
         <key>Title</key><string>PART 12 - ALLEN HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>88</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>6808</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>6809</integer>
         <key>Title</key><string>VOLUME 4 - SOUTH CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>89</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>6810</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>6811</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>90</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>6850</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>6851</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>91</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>6852</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>6853</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>92</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>7617</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>7618</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>93</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>7619</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>7620</integer>
         <key>Title</key><string>Section 1 - Giant X</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>94</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>7698</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>7699</integer>
         <key>Title</key><string>Section 2 - Library Things</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>95</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>7741</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>7742</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>96</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>7743</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>7744</integer>
         <key>Title</key><string>PART 1 - CAMPUS OBSERVATORY</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>97</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>7797</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>7798</integer>
         <key>Title</key><string>PART 2 - UNDERGRAD LIBRARY</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>98</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>8188</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>8189</integer>
         <key>Title</key><string>PART 3 - MAIN LIBRARY</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>99</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>9065</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>9066</integer>
         <key>Title</key><string>PART 4 - DAVID KINLEY HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>100</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>9517</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>9518</integer>
         <key>Title</key><string>PART 5 - STOCK PAVILION</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>101</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10340</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10341</integer>
         <key>Title</key><string>VOLUME 5 - SOUTHWEST CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>102</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10342</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10343</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>103</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10374</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10375</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>104</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10376</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10377</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>105</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10479</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10480</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>106</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10517</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10518</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>107</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10519</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10520</integer>
         <key>Title</key><string>PART 1 - ARMORY</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>108</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10881</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10882</integer>
         <key>Title</key><string>PART 2 - HARDING BAND BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>109</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10900</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10901</integer>
         <key>Title</key><string>PART 3 - COLLEGE of BUSINESS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>110</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>10938</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>10939</integer>
         <key>Title</key><string>PART 4 - FLAGG HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>111</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>11228</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>11229</integer>
         <key>Title</key><string>PART 5 - KRANNERT ART MUSEUM</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>112</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>11273</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>11274</integer>
         <key>Title</key><string>PART 6 - WOHLER'S HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>113</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>11315</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>11316</integer>
         <key>Title</key><string>PART 7 - ART and DESIGN BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>114</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>11520</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>11521</integer>
         <key>Title</key><string>Part 8 - SIEBEL CENTER FOR DESIGN</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>115</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>11967</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>11978</integer>
         <key>Title</key><string>VOLUME 6 - WEST CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>116</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>11969</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>11980</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>117</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12020</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12031</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>118</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12022</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12033</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>119</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12024</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12035</integer>
         <key>Title</key><string>Section 1 - Library and Armory Neighborhood</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>120</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12076</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12087</integer>
         <key>Title</key><string>Section 2 - Daniel Neighborhood</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>121</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12097</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12108</integer>
         <key>Title</key><string>Section 3 - Daniel Street</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>122</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12112</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12123</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>123</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12114</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12125</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>124</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12116</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12127</integer>
         <key>Title</key><string>PART 1 - BOOKSTORE</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>125</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12261</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12272</integer>
         <key>Title</key><string>PART 2 - YMCA</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>126</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12342</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12353</integer>
         <key>Title</key><string>PART 3 - GREGORY HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>127</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12904</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12915</integer>
         <key>Title</key><string>PART 4 - NEWMAN CENTER</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>128</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>12924</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>12935</integer>
         <key>Title</key><string>PART 5 - ICE ARENA</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>129</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13046</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13057</integer>
         <key>Title</key><string>PART 6 - PSYCHOLOGY BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>130</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13195</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13206</integer>
         <key>Title</key><string>PART 7 - SPEECH &amp; HEARING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>131</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13216</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13227</integer>
         <key>Title</key><string>PART 8 - EPISCOPAL GARDENS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>132</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13375</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13386</integer>
         <key>Title</key><string>VOLUME 7 - NORTHWEST CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>133</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13377</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13388</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>134</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13406</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13417</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>135</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13408</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13419</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>136</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13551</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13562</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>137</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13572</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13583</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>138</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13578</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13589</integer>
         <key>Title</key><string>PART 1 - 2023</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>139</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13590</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13601</integer>
         <key>Title</key><string>PART 2 - ILLINI UNION BOOKSTORE</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>140</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13842</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13853</integer>
         <key>Title</key><string>PART 3 - CHAMPAIGN ESPRESSO</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>141</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13946</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13957</integer>
         <key>Title</key><string>PART 4 - KAM'S</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>142</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>13962</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>13973</integer>
         <key>Title</key><string>PART 5 - SILVER MINE SUBS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>143</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14163</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14174</integer>
         <key>Title</key><string>PART 6 - INTERNATIONAL STUDIES BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>144</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14172</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14183</integer>
         <key>Title</key><string>PART 7 - McKINLEY &amp; PRESBY HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>145</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14188</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14199</integer>
         <key>Title</key><string>PART 8 - THE iSCHOOL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>146</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14567</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14578</integer>
         <key>Title</key><string>PART 9 - GREEN STREET</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>147</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14569</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14580</integer>
         <key>Title</key><string>SECTION 1 - PANERA</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>148</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14679</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14690</integer>
         <key>Title</key><string>SECTION 2 - McDONALDS</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>149</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14811</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14822</integer>
         <key>Title</key><string>SECTION 3 - SPOON HOUSE</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>150</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>14945</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>14956</integer>
         <key>Title</key><string>SECTION 4 - MURPHY'S PUB</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>151</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15157</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15168</integer>
         <key>Title</key><string>SECTION 5 - BROTHER'S BAR</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>152</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15270</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15281</integer>
         <key>Title</key><string>SECTION 6 - TARGET</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>153</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15459</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15470</integer>
         <key>Title</key><string>SECTION 7 - GREEN ST WINTER</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>154</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15610</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15621</integer>
         <key>Title</key><string>SECTION 8 - JURASSIC GRILL</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>155</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15688</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15699</integer>
         <key>Title</key><string>PART 10 - ILLINI HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>156</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15699</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15710</integer>
         <key>Title</key><string>PART 11 - TURNER SOCIAL SERVICES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>157</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15722</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15733</integer>
         <key>Title</key><string>VOLUME 8 - NORTH CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>158</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15724</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15735</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>159</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15750</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15761</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>160</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15752</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15763</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>161</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15861</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15872</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>162</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15883</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15894</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>163</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>15885</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>15896</integer>
         <key>Title</key><string>PART 1 - GRAINGER</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>164</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>16854</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>16865</integer>
         <key>Title</key><string>PART 2 - EVERITT LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>165</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>16872</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>16883</integer>
         <key>Title</key><string>PART 3 - ENGINEERING HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>166</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17028</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17039</integer>
         <key>Title</key><string>PART 4 - MATERIALS SCIENCE BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>167</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17057</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17068</integer>
         <key>Title</key><string>PART 5 - MECHANICAL ENGINEERING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>168</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17495</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17506</integer>
         <key>Title</key><string>PART 6 - CIVIL ENGINEERING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>169</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17509</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17520</integer>
         <key>Title</key><string>PART 7 ELECTRICAL ENGINEERING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>170</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17717</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17728</integer>
         <key>Title</key><string>PART 8 - DIGITAL COMPUTER LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>171</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17728</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17739</integer>
         <key>Title</key><string>PART 9 - SIEBEL CENTER</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>172</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17730</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17741</integer>
         <key>Title</key><string>Chapter 1 - Map of Siebel Center</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>173</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17751</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17762</integer>
         <key>Title</key><string>Chapter 2 - Plato</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>174</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17763</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17774</integer>
         <key>Title</key><string>Chapter 3 - Bagels</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>175</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>17939</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>17950</integer>
         <key>Title</key><string>Chapter 4 - Zombie Horde</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>176</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>18112</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>18123</integer>
         <key>Title</key><string>Chapter 5 -Charger Scene</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>177</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>18161</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>18172</integer>
         <key>Title</key><string>Chapter 6 - Rooma</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>178</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>18200</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>18211</integer>
         <key>Title</key><string>PART 10 - NCSA</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>179</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>18232</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>18243</integer>
         <key>Title</key><string>PART 11 - BARDEEN QUAD GAME</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>180</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>18236</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>18247</integer>
         <key>Title</key><string>PART 12 - TALBOT LABORATORY</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>181</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>18519</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>18530</integer>
         <key>Title</key><string>PART 13 - MECHANICAL ENGINEERING LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>182</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19103</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19114</integer>
         <key>Title</key><string>BOOK 4 - UNDERGROUND MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>183</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19107</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19118</integer>
         <key>Title</key><string>PART 1 - SECRET SELF-DRIVING CAR GARAGE</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>184</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19352</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19363</integer>
         <key>Title</key><string>VOLUME 9 - NORTHEAST CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>185</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19354</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19365</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>186</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19377</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19388</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>187</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19379</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19390</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>188</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19441</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19452</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>189</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19443</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19454</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>190</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19445</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19456</integer>
         <key>Title</key><string>PART 1 - ILLINOIS STREET RESIDENCE HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>191</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19701</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19712</integer>
         <key>Title</key><string>PART 2 - LOOMIS LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>192</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>19834</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>19845</integer>
         <key>Title</key><string>PART 3 - NUCLEAR LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>193</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20116</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20127</integer>
         <key>Title</key><string>PART 4 - Goodwin Apartments</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>194</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20267</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20278</integer>
         <key>Title</key><string>VOLUME 10 - EAST CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>195</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20269</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20280</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>196</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20316</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20327</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>197</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20318</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20329</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>198</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20408</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20419</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>199</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20410</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20421</integer>
         <key>Title</key><string>Section 1 - Bus Shelter</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>200</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20460</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20471</integer>
         <key>Title</key><string>Section 2 - Amphitheatre</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>201</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20538</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20549</integer>
         <key>Title</key><string>Section 3 - Outside Spurlock</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>202</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20594</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20605</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>203</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20596</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20607</integer>
         <key>Title</key><string>PART 1 - KRANNERT CENTER</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>204</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20598</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20609</integer>
         <key>Title</key><string>Chapter 1 - Krannert Map</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>205</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20675</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20686</integer>
         <key>Title</key><string>Chapter 2 - Global Rules for Krannert</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>206</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20683</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20694</integer>
         <key>Title</key><string>Chapter 3 - Playhouse Game</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>207</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>20907</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>20918</integer>
         <key>Title</key><string>Chapter 4 - Krannert Catacombs</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>208</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21009</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21020</integer>
         <key>Title</key><string>Chapter 5 - Intermezzo and Concert Game</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>209</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21011</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21022</integer>
         <key>Title</key><string>Section 1 - Cafe Scenario</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>210</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21099</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21110</integer>
         <key>Title</key><string>Section 2 - Backstage</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>211</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21158</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21169</integer>
         <key>Title</key><string>Section 3 - Great Hall</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>212</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21170</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21181</integer>
         <key>Title</key><string>Section 4 - Stage 5</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>213</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21338</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21349</integer>
         <key>Title</key><string>Section 5 - Center Lobby Conversations</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>5</integer>
     </dict>
     <key>214</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21463</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21474</integer>
         <key>Title</key><string>Chapter 6 - Mini Krannert Boss Fight</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>215</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21576</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21587</integer>
         <key>Title</key><string>PART 2 - SPURLOCK MUSEUM</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>216</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21581</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21592</integer>
         <key>Title</key><string>PART 3 - ADAMS LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>217</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21710</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21721</integer>
         <key>Title</key><string>PART 4 - SMITH HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>218</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>21855</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>21866</integer>
         <key>Title</key><string>PART 5 - MUSIC BUILDING</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>219</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>22247</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>22258</integer>
         <key>Title</key><string>PART 6 - URBANA ESPRESSO</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>220</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>22494</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>22505</integer>
         <key>Title</key><string>PART 7 - CANOPY CLUB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>221</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>22857</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>22868</integer>
         <key>Title</key><string>PART 8 - Red Herring</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>222</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>22982</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>22993</integer>
         <key>Title</key><string>VOLUME 11 - SOUTHEAST CAMPUS</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>223</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>22984</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>22995</integer>
         <key>Title</key><string>BOOK 1 - REGIONS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>224</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23023</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23034</integer>
         <key>Title</key><string>BOOK 2 - OUT of DOORS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>225</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23025</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23036</integer>
         <key>Title</key><string>PART 1 - ROOMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>226</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23137</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23148</integer>
         <key>Title</key><string>PART 2 - CURIOSITIES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>227</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23139</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23150</integer>
         <key>Title</key><string>Section 1 - Nick Offerman's Gazebo</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>228</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23152</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23163</integer>
         <key>Title</key><string>BOOK 3 - INDOOR MAPS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>229</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23154</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23165</integer>
         <key>Title</key><string>PART 1 - INSTITUTE OF GENOMIC BIOLOGY</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>230</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23162</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23173</integer>
         <key>Title</key><string>PART 2 - ANIMAL SCIENCES LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>231</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23199</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23210</integer>
         <key>Title</key><string>PART 3 - EDWARD MADIGAN LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>232</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23219</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23230</integer>
         <key>Title</key><string>PART 4 - ANIMAL SCIENCE LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>233</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23246</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23257</integer>
         <key>Title</key><string>PART 5 - TURNER HALL</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>234</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23281</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23292</integer>
         <key>Title</key><string>PART 6 - PLANT SCIENCES LAB</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>235</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>23824</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>23835</integer>
         <key>Title</key><string>PART 7 - MCKINLEY VAMPIRES</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>236</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>24576</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>24587</integer>
         <key>Title</key><string>PART 8 - PAR</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>237</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>25176</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>25187</integer>
         <key>Title</key><string>PART 9 - ARBORETUM</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>238</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>25178</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>25189</integer>
         <key>Title</key><string>Section 1 - Japan House Story</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>239</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>25528</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>25539</integer>
         <key>Title</key><string>Section 2 - Horse Story</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>240</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>25648</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>25659</integer>
         <key>Title</key><string>PART 10 - FAR DORMS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>241</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26034</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26045</integer>
         <key>Title</key><string>PART 11 - Many Greenhouses</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>242</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26146</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26157</integer>
         <key>Title</key><string>BOOK 4 - WHOLE CAMPUS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>243</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26148</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26159</integer>
         <key>Title</key><string>PART 1 - Regions of Regions</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>244</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26160</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26171</integer>
         <key>Title</key><string>PART 2 - Bus System</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>245</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26306</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26317</integer>
         <key>Title</key><string>PART 3 - Time Travel</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>246</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26381</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26392</integer>
         <key>Title</key><string>VOLUME 12 - The FABLAB TUTORIAL GAME</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>247</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26383</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26394</integer>
         <key>Title</key><string>BOOK 1 - Outside the Fablab</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>248</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26404</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26415</integer>
         <key>Title</key><string>BOOK 2 - The Tutorial</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>249</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26408</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26419</integer>
         <key>Title</key><string>PART 1 - Rooms</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>250</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26433</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26444</integer>
         <key>Title</key><string>Section 1 - Going Nowhere</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>251</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26449</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26460</integer>
         <key>Title</key><string>PART 2 - Things/Tutorial 2</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>252</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26451</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26462</integer>
         <key>Title</key><string>Section 1 - Fablab Main Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>253</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26483</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26494</integer>
         <key>Title</key><string>Section 2 - Staff Room</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>254</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26531</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26542</integer>
         <key>Title</key><string>Section 3 - Robotics Lab</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>255</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26533</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26544</integer>
         <key>Title</key><string>Section 4 - The Player</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>256</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26539</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26550</integer>
         <key>Title</key><string>PART 3 - Interactions/Tutorial 3</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>257</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26541</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26552</integer>
         <key>Title</key><string>Section 1 - Sewing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>258</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26559</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26570</integer>
         <key>Title</key><string>Section 2 - Taking and Eating</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>259</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26588</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26599</integer>
         <key>Title</key><string>Section 3 - Making Doors</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>260</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26621</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26632</integer>
         <key>Title</key><string>Section 4 - Examining Things</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>261</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26661</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26672</integer>
         <key>Title</key><string>PART 4 - Actions/Tutorial 4</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>262</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26663</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26674</integer>
         <key>Title</key><string>Section 1 -- Understanding</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>263</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26676</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26687</integer>
         <key>Title</key><string>Section 2 Drinking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>264</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26706</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26717</integer>
         <key>Title</key><string>Section 3 Breathing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>265</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26738</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26749</integer>
         <key>Title</key><string>Section 4 Sewing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>266</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26758</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26769</integer>
         <key>Title</key><string>Section 5 Reading</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>267</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26780</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26791</integer>
         <key>Title</key><string>Section 6 - Timing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>268</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26788</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26799</integer>
         <key>Title</key><string>PART 5 -- People/Tutorial 5</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>269</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26790</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26801</integer>
         <key>Title</key><string>Section 1 Jeff</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>270</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26820</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26831</integer>
         <key>Title</key><string>Section 2 Staff</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>271</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26853</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26864</integer>
         <key>Title</key><string>Section 3 Robots</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>272</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26863</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26874</integer>
         <key>Title</key><string>Section 4 Talking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>273</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26887</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26898</integer>
         <key>Title</key><string>Section 5 Giving and Throwing</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>274</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26906</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26917</integer>
         <key>Title</key><string>Section 6 Attacking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>275</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26926</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26937</integer>
         <key>Title</key><string>Section 7 Asking</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>276</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26959</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26970</integer>
         <key>Title</key><string>Section 8 Pets and Changing Player Character</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>277</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26971</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26982</integer>
         <key>Title</key><string>PART 6 - Variables/Tutorial 6</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>278</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>26973</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>26984</integer>
         <key>Title</key><string>Section 1 - Passing Time</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>279</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27000</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27011</integer>
         <key>Title</key><string>Section 2 - Jeff Enters</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>280</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27017</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27028</integer>
         <key>Title</key><string>Section 3 - Scoring</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>281</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27034</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27045</integer>
         <key>Title</key><string>Section 4 - Meteor</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>282</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27080</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27091</integer>
         <key>Title</key><string>Section 5 - Text Variables</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>283</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27096</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27107</integer>
         <key>Title</key><string>PART 7 - Lists/Tutorial 7</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>284</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27098</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27109</integer>
         <key>Title</key><string>Section 1 - Jeff's Stuff</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>285</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27123</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27134</integer>
         <key>Title</key><string>Section 2 - Turning out the Lights</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>286</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27148</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27159</integer>
         <key>Title</key><string>Section 3 - Catching bugs</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>287</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27223</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27234</integer>
         <key>Title</key><string>Section 4 - Recycling</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>288</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27305</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27316</integer>
         <key>Title</key><string>PART 8 -</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>289</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27307</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27318</integer>
         <key>Title</key><string>Section 1 - Random Events</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>290</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27324</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27335</integer>
         <key>Title</key><string>Section 2 - Interrogating it about</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>291</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27354</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27365</integer>
         <key>Title</key><string>Section 3 - Cyborg Boss Fight</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>292</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27503</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27514</integer>
         <key>Title</key><string>Section 4 -- Golden Chest</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>293</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27611</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27622</integer>
         <key>Title</key><string>Section 5 - Joining the Fablab Team</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>294</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27766</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27777</integer>
         <key>Title</key><string>Chapter 1 - In the Tutorial but not in the Game</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>4</integer>
     </dict>
     <key>295</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27826</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27837</integer>
         <key>Title</key><string>VOLUME 13 - OUT of WORLD</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>296</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27828</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27839</integer>
         <key>Title</key><string>BOOK 1 - WHEN PLAY ENDS</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>297</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27838</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27849</integer>
         <key>Title</key><string>PART 1 -- ENDING THE JOURNEY</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>298</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>27875</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>27886</integer>
         <key>Title</key><string>PART 2 -- STATUS REGIONS and ENDINGS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>299</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28058</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28069</integer>
         <key>Title</key><string>BOOK 2 - META-INFORMATION</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>300</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28060</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28071</integer>
         <key>Title</key><string>PART 1 - CREDITS</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>301</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28074</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28085</integer>
         <key>Title</key><string>Part 2 Leafs and Credits</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>302</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28192</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28203</integer>
         <key>Title</key><string>BOOK 3 -- IDEAS IN DEVELOPMENT</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>303</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28194</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28205</integer>
         <key>Title</key><string>PART 1 - A Quest Hub System</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>304</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28196</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28207</integer>
         <key>Title</key><string>PART 2 - Hint System</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>305</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28223</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28234</integer>
         <key>Title</key><string>PART 3 - A Means to Direct Player to Endings</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>306</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28254</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28265</integer>
         <key>Title</key><string>VOLUME 14 - Seasonal or Archived Game Modules</string>
         <key>Level</key><integer>1</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>307</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28256</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28267</integer>
         <key>Title</key><string>Book 1 - Saving the World Squirrel</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>308</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28258</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28269</integer>
         <key>Title</key><string>Part 1 - May Pole</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>309</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28328</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28339</integer>
         <key>Title</key><string>Part 2 - World Squirrel</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>310</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28871</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28882</integer>
         <key>Title</key><string>Part 3 - Memories Found and Status</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>311</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>28904</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>28915</integer>
         <key>Title</key><string>Part 4 - Code temporarily moved here that should go back to where it belongs later</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>312</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>29437</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>29448</integer>
         <key>Title</key><string>Book 2 - Welcome to the U of I</string>
         <key>Level</key><integer>2</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>313</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>29439</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>29450</integer>
         <key>Title</key><string>Part 1 - WelcomeSquirrel</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>314</key><dict>
-        <key>Filename</key><string>/Users/csung2022/Desktop/S5/GSD 409/QuadGame22October2024.inform/Source/story.ni</string>
-        <key>Line</key><integer>29792</integer>
+        <key>Filename</key><string>/Users/csung2022/Documents/GitHub/Quad-Game-SSW/QuadGame22October2024.inform/Source/story.ni</string>
+        <key>Line</key><integer>29803</integer>
         <key>Title</key><string>Part 2 - Campus Tour</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>3</integer>
