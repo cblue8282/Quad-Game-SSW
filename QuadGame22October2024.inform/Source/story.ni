@@ -11574,16 +11574,14 @@ The description of Small hallway is "A narrow hallway giving you a bird's eye vi
 
 Top of Southeast Stairway is south of SCDMainLobby and southeast of Upper Hallway. "The top of the southeast stairway. Your eyes are caught by the surrounding area."
 
-SunsetStudio 1050 is south of Upper Hallway. "You look around at the long room. The front half looks like a normal clasroom, but the back looks like it's for more fun activities."
-
-The description of SunsetStudio 1050 is "[if unvisited] Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. [else] You remember not to disturb the working students but also recall the white boards there."
+SunsetStudio 1050 is south of Upper Hallway. "[if unvisited] Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. [else] You remember not to disturb the working students but also recall the white boards there."
 	
 MoonlightBay 1060 is southwest of Upper Hallway. "A space for temporary housing for artists to keep their work for a few weeks. Looks like no one has laid claim to it for now. The empty pegboard catches your eye."
 
 [Garage is southeast of Upper Hallway]
 
 Front of elevator is south of WesternSCDInterior and west of upper hallway.
-The description of Front of elevator is "In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’" [i can fix this methinks]
+The description of Front of elevator is "In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’" [this is not broken oops]		
 
 Front entrance is south of Front of elevator. "A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building."
 
@@ -11623,9 +11621,11 @@ Twilight Studio is south of Lower Hallway. "Tables and chairs sit at equal dista
 Computer lab is southwest of Lower Hallway and south of Lower Lobby. "Formerly Classroom 0060, the computer lab is one of the homes of the Game Studies and Design program, home of the Illini E-Sport competitors, headquarters of the Computer Music Project, and office hour location of Game Development."
 The printed name of computer lab is "Game Studies and Computer Music Lab".
 
-Project Storage is northeast of End of Ramp. "The large sign that says 'Project Storage' directs you to a closed window."
+Project Storage is northeast of End of Ramp. "The large sign that says 'Project Storage' directs you to a closed window. Man..."
 
-SCDShop is southeast of Checkout window and east of lower hallway. "[if unvisited]As you open the doors, you are greeted by rows of tables covered with various devices: 3D printers, laser cutters, scanners, wood and metalworking tools, equipment lockers, and more. A few students are working on personal projects here and there, and a 3D printer whirs away in the corner on a complicated-looking project.[else if SCDHammer is in SCDShop]Glancing around, you can see an open 3D printer, an empty laser cutter, a wall of tools barren except for a single hammer, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects.[else]Glancing around, you can see an open 3D printer, an empty laser cutter, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects." The printed name of SCDShop is "The Shop".
+Bottom of Southeast Stairway is east of lower hallway and down from top of Southeast stairway. "The bottom of the southeast stairway. Your eyes are caught by the surrounding area."
+
+SCDShop is southeast of Checkout window and east of Bottom of Southeast stairway. "[if unvisited]As you open the doors, you are greeted by rows of tables covered with various devices: 3D printers, laser cutters, scanners, wood and metalworking tools, equipment lockers, and more. A few students are working on personal projects here and there, and a 3D printer whirs away in the corner on a complicated-looking project.[else if SCDHammer is in SCDShop]Glancing around, you can see an open 3D printer, an empty laser cutter, a wall of tools barren except for a single hammer, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects.[else]Glancing around, you can see an open 3D printer, an empty laser cutter, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects." The printed name of SCDShop is "The Shop".
 
 Study hallway is west of Checkout window and north of Lower Lobby. "Rows of white tables sit under equally white walls, which upon closer inspection, are whiteboards. The area is blindingly bright."
 
