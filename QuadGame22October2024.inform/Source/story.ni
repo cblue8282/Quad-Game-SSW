@@ -11537,29 +11537,22 @@ EasternSCDInterior is inside from Eastern SCD and east of SCDMainLobby. "You are
 The printed name of EasternSCDInterior is "East Terrace." 
 EasternSCDInterior is an interior location. 				
 
-Classroom 1000 is northwest of WesternSCDInterior.
-The description of Classroom 1000 is "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers. Strangely, you notice a lonely backpack sitting on top one of the tables. Some student must have forgotten it."
+Classroom 1000 is northwest of WesternSCDInterior. "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers. Strangely, you notice a lonely backpack sitting on top one of the tables. Some student must have forgotten it."
 
-Classroom 1002 is north of WesternSCDInterior.
-The description of Classroom 1002 is "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers."
+Classroom 1002 is north of WesternSCDInterior. "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers."
 
-SCDGallery is east of WesternSCDInterior.
-The description of Gallery is "[if unvisited] You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. [else] There looks to be some students hanging around this area, but there is still enough free seats for you to sit down and have a rest."
+SCDGallery is east of WesternSCDInterior. "[if unvisited]You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. [else] There looks to be some students hanging around this area, but there is still enough free seats for you to sit down and have a rest."
 The printed name of SCDGallery is "Gallery".
 
-Multimedia room is northwest of SCDGallery and northeast of WesternSCDInterior.
-The description of Multimedia room is "A digital production lab for all your storytelling needs. Record your videos and podcasts — also feel free to eat some ice cream (BYOIC)."
+Multimedia room is northwest of SCDGallery and northeast of WesternSCDInterior. "A digital production lab for all your storytelling needs. Record your videos and podcasts — also feel free to eat some ice cream (BYOIC)."
 
-SCDMainFloorRestrooms is north of SCDGallery.
-The description of Main floor restrooms is "[if unvisited] You take a deep breath before going into the restroom. You blink and let out a pleasantly surprised gasp, the restroom is cleaner than you first thought. You peek inside one of the stalls and aren't greeted with a dirty looking toilet with some toilet paper sitting inside the bowl. [paragraph break] You let out a ‘huh' as you step back and marvel at how clean it looks despite being a public restroom. It must be because the building is still new. So you count yourself lucky at seeing this restroom while it is still clean. [else] A clean looking restroom greets you, looks like it is being well kept by the janitors today."
+SCDMainFloorRestrooms is north of SCDGallery. "[if unvisited] You take a deep breath before going into the restroom. You blink and let out a pleasantly surprised gasp. The restroom is cleaner than you first thought. You peek inside one of the stalls and aren't greeted with a dirty looking toilet with some toilet paper sitting inside the bowl. [paragraph break] You let out a ‘huh' as you step back and marvel at how clean it looks despite being a public restroom. It must be because the building is still new. So you count yourself lucky at seeing this restroom while it is still clean. [else] A clean looking restroom greets you, looks like it is being well kept by the janitors today."
 The printed name of SCDMainFloorRestrooms is "Main Floor Restrooms".
 
-SCDMainLobby is east of SCDGallery.
-The description of SCDMainLobby is "Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain’s chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away."
+SCDMainLobby is east of SCDGallery. "You look around and see tall tables and chairs to work and comfy captain’s chairs in front of the floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away."
 The printed name of SCDMainLobby is "Main Lobby".
 
-SCDMainOffice is northwest of SCDMainLobby and northeast of SCDGallery.
-The description of SCDMainOffice is "(Looks terrible) Administrators’ here. Stop by to ask your questions."
+SCDMainOffice is northwest of SCDMainLobby and northeast of SCDGallery. "(Looks terrible) Administrators’ here. Stop by to ask your questions."
 The printed name of SCDMainOffice is "Main Office".
 
 [
@@ -11568,42 +11561,37 @@ The description of Kitchen is "[if unvisited] Seems not done yet but, there does
 The printed name of SCDKitchen is "Kitchen"
 ]
 
-Starlight Cafe is northeast of SCDMainLobby. [wait what]
-The description of Starlight Cafe is "[if unvisited] No starlight but more Sunlight shines through on you, you can finish your pizza here. [else] you see the beautiful view of East Terrace and the bike side. There are some broken pumpkins left on the ground. "
+Starlight Cafe is northeast of SCDMainLobby. "[if unvisited] No starlight but more Sunlight shines through on you, you can finish your pizza here. [else] you see the beautiful view of East Terrace and the bike side. There are some broken pumpkins left on the ground. "
 
-[Concierge is east of SCDMainLobby. [what is this]
+[Concierge is east of SCDMainLobby. [im gonna make this an object not a room]
 Sunrise Studios is east of Concierge.
-Small hallway is south of Concierge.]
+Small hallway is south of Concierge.]		
 	
-SunriseStudio 1040 is southeast of SCDMainLobby.
+SunriseStudio 1040 is southeast of SCDMainLobby. "An quaint room: large, but hidden in the corner."
 	
 Upper Hallway is southwest of SCDMainLobby.
-The description of Small hallway is "the pathway in front of you leads you to go north, south, or maybe into Sunset Studio to the northeast or the Garage to the southeast."
+The description of Small hallway is "A narrow hallway giving you a bird's eye view of the whole building."
 
-Top of Southeast Stairway is south of SCDMainLobby and southeast of Upper Hallway.
+Top of Southeast Stairway is south of SCDMainLobby and southeast of Upper Hallway. "The top of the southeast stairway. Your eyes are caught by the surrounding area."
 
-SunsetStudio 1050 is south of Upper Hallway.
-
-The description of SunsetStudio 1050 is "[if unvisited] Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. [else] You remember not to disturb the working students but also recall the WhiteBoards there."
+SunsetStudio 1050 is south of Upper Hallway. "[if unvisited] Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. [else] You remember not to disturb the working students but also recall the white boards there."
 	
-MoonlightBay 1060 is southwest of Upper Hallway.
+MoonlightBay 1060 is southwest of Upper Hallway. "A space for temporary housing for artists to keep their work for a few weeks. Looks like no one has laid claim to it for now. The empty pegboard catches your eye."
 
 [Garage is southeast of Upper Hallway]
 
 Front of elevator is south of WesternSCDInterior and west of upper hallway.
-The description of Front of elevator is "In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’" [i can fix this methinks]
+The description of Front of elevator is "In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’" [this is not broken oops]		
 
-Front entrance is south of Front of elevator.
-The description of Front entrance is "A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building."
+Front entrance is south of Front of elevator. "A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building."
 
-Top of Southwest Stairway is east of front entrance.
+Top of Southwest Stairway is east of front entrance. "A modest stairway, call concrete save for the modern-patterned door."
 
-South Terrace is south of front entrance.
-The description of South Terrace is "A lesser used entrance to the Seibel Design Center. You are also not that far from the Art and Design building."
+South Terrace is south of front entrance. "A lesser used entrance to the Seibel Design Center. You are also not that far from the Art and Design building."
 
 MeetingRoom1070 is west of Front of elevator and northwest of front entrance.
 Ramp is down of WesternSCDInterior.
-The printed name of MeetingRoom1070 is "[if unvisited] Meeting room 1070 [else] taken meeting room".
+The printed name of MeetingRoom1070 is "[if unvisited] Meeting room 1070 [else]taken meeting room".
 
 The description of MeetingRoom1070 is " Right before you walk into the meeting room you notice that it is occupied. You decide not to be rude and let the meeting continue."
 
@@ -11612,31 +11600,34 @@ Instead of entering MeetingRoom1070:
 	stop the action.
 
 [-------- Bottom Floor —-----]
-Bottom of southwest stairway is down from Top of Southwest Stairway.
-End of Ramp is down of ramp.
+Bottom of southwest stairway is down from Top of Southwest Stairway and southwest of Lower Lobby. "A small alcove, in which you see a water fountain."
 
-Amphitheater is east of End of Ramp.
+End of Ramp is down of ramp. "The bottom of the long ramp. Though it is a nice slope, the journey is quite long."
 
-Vending machine is west of End of Ramp.
-The description of Vending machine is "[if unvisited]You see three different types of machines in front of you: a coffee vending machine, which looks to be out of order. A snack vending machine, its items ranging from chips to sweet snacks. And a soda vending machine, having a variety of coke brand soda, and some other options of choosing a monster energy drink or a bottle of water. Across from them is a water fountain. [else] You see three different types of vending machines and a water fountain."
+Amphitheater is east of End of Ramp. "A space walled off by the ramp itself. There is a television and supposed seating, which is wood paneling on the concrete construction."
 
-Lower Restrooms is west of Vending machine.
-The description of Lower Restrooms is "[if unvisited]Much like its main floor counter part, this area looks to be well maintained and clean. There is nothing special to note about the bathroom except for the stalls and the trash can near the doorway.[else] A clean looking bathroom. Its a typical bathroom with stalls, sinks, paper towel dispensers, and a trash can."
+Bulletin board is north of End of Ramp. "The bulletin board is covered in flyers of different events and classes."
 
-Lower Lobby is south of End of ramp.
-The description of Lower Lobby is "[if unvisited] While not as big as the main lobby, it still has some desks and even four couches for students to lounge in. A few students have already taken advantage of the two of the couches. [else] A small lobby for students to study in."
+Vending machine is north of Bulletin board. "[if unvisited]You see three different types of vending machines in front of you: one for coffee, though it is out-of-order, one for snacks, its items ranging from chips to sweet snacks, and one for soda, which has a variety of coke brand soda, monster energy drinks, and water (there is a water fountain behind you so...). [else]You see three different types of vending machines and a water fountain."
 
-Lower Hallway is east of Lower Lobby and south of Study hallway.
+Lower Restrooms is west of Vending machine and northwest of bulletin board. "[if unvisited]Much like its main floor counter part, this area looks to be well maintained and clean. There is nothing special to note about the bathroom except for the stalls and the trash can near the doorway.[else]A clean looking bathroom. Its a typical bathroom with stalls, sinks, paper towel dispensers, and a trash can."
 
-Twilight Studio is east of Lower Hallway. "Tables and chairs sit at equal distances apart across the room. Tall rolling whiteboards separate them. Unlike the Sunset Studio upstairs, there is a depressing lack of both color and sunlight. [if SCDBentNail is in Twilight Studio]As you stroll through the room, you spot a bent nail sticking out of the wall. You might be able to hammer it back in place with something."
+Lower Lobby is west of End of ramp. "[if unvisited]While not as big as the main lobby, it still has some desks and even couches for students to lounge in. A few students have already taken advantage of the two of the couches. [else]A small lobby for students to study in."
 
-Classroom 60 is southeast of Lower Hallway.
+Lower Hallway is southeast of Lower Lobby and south of End of Ramp. "The lower counterpart of the hallway above. The northern wall is actually rows of large lockers for the Twilight residents."
 
-Checkout window is north of End of Ramp.
+Twilight Studio is south of Lower Hallway. "Tables and chairs sit at equal distances apart across the room. Tall rolling whiteboards separate them. Unlike the Sunset Studio upstairs, there is a depressing lack of both color and sunlight. Around the room are various projects and tools from the different student organizations.[if SCDBentNail is in Twilight Studio]As you stroll through the room, you spot a bent nail sticking out of the wall. You might be able to hammer it back in place with something."
 
-SCDShop is northeast of Checkout window. "[if unvisited]As you open the doors, you are greeted by rows of tables covered with various devices: 3D printers, laser cutters, scanners, wood and metalworking tools, equipment lockers, and more. A few students are working on personal projects here and there, and a 3D printer whirs away in the corner on a complicated-looking project.[else if SCDHammer is in SCDShop]Glancing around, you can see an open 3D printer, an empty laser cutter, a wall of tools barren except for a single hammer, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects.[else]Glancing around, you can see an open 3D printer, an empty laser cutter, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects." The printed name of SCDShop is "The Shop".
+Computer lab is southwest of Lower Hallway and south of Lower Lobby. "Formerly Classroom 0060, the computer lab is one of the homes of the Game Studies and Design program, home of the Illini E-Sport competitors, headquarters of the Computer Music Project, and office hour location of Game Development."
+The printed name of computer lab is "Game Studies and Computer Music Lab".
 
-Study hallway is west of Checkout window.
+Project Storage is northeast of End of Ramp. "The large sign that says 'Project Storage' directs you to a closed window. Man..."
+
+Bottom of Southeast Stairway is east of lower hallway and down from top of Southeast stairway. "The bottom of the southeast stairway. Your eyes are caught by the surrounding area."
+
+SCDShop is southeast of Checkout window and east of Bottom of Southeast stairway. "[if unvisited]As you open the doors, you are greeted by rows of tables covered with various devices: 3D printers, laser cutters, scanners, wood and metalworking tools, equipment lockers, and more. A few students are working on personal projects here and there, and a 3D printer whirs away in the corner on a complicated-looking project.[else if SCDHammer is in SCDShop]Glancing around, you can see an open 3D printer, an empty laser cutter, a wall of tools barren except for a single hammer, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects.[else]Glancing around, you can see an open 3D printer, an empty laser cutter, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects." The printed name of SCDShop is "The Shop".
+
+Study hallway is west of Checkout window and north of Lower Lobby. "Rows of white tables sit under equally white walls, which upon closer inspection, are whiteboards. The area is blindingly bright."
 
 Space Room is a room. "The room hardly looks like a room at all; there don't appear to be visible walls or ceilings, though you can feel intuitively that they exist from the way the light bends. You feel like you're standing in some sort of void, but it's filled with basketball-sized planets, stars, asteroids, and other little heavenly bodies slowly bouncing around the room. A particularly frozen ball of matter hovers motionless at the far end."
 
