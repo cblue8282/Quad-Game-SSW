@@ -1127,6 +1127,20 @@ Report flipping something:
 	say "You flip the [noun] over, marveling at how much stronger you are than you thought. Though you must admit, it probably has less to do with your strength and more to do with your usual weakness.".
 
 [------------------------------------------------------------------------] 
+	
+Taking selfie with is an action applying to one visible thing.
+
+Understand “take a selfie with [someone]” and “take selfie with [someone]” and “take a selfie with [something]” and “take selfie with [something]” as taking selfie with. 
+
+Carry out taking selfie with:
+	If noun is proper-named:
+		say “You took a selfie with [noun], despite sensing some reluctance. You two exchanged an awkward yet polite smile.”; 
+	else:
+		say “You took a selfie with the [noun]. Great, another 4 mb of random trash inside my head, your phone murmured.” 
+
+[special event based on new defined action]
+
+[------------------------------------------------------------------------] 
 
 Smoking is an action applying to one thing.
 
@@ -12007,7 +12021,7 @@ SDRPStudy is south of SDRPInterior. "A large, almost liminal, study room. People
 The printed name of SDRPStudy is "SDRP Study."
 	
 SDRPComputer is scenery in SDRPStudy. "A game is open. Looks like an escape room."
-Understand "Computer" as SDRP computer.
+Understand "Computer" as SDRPComputer.
 	
 [game]	
 
@@ -12064,7 +12078,7 @@ Instead of switching off a gameswitch:
  	check puzzle solution.
 
 To check puzzle solution:
-	if the mercury switch is switched on and the venus switch is switched on and the jupiter switch is switched on and the earth switch is switched off and the mars switch is switched off the saturn switch is switched off and the uranus switch is switched off and the neptune switch is switched off and the pluto switch is switched off:
+	if the mercury switch is switched on and the venus switch is switched on and the jupiter switch is switched on and the earth switch is switched off and the mars switch is switched off and the saturn switch is switched off and the uranus switch is switched off and the neptune switch is switched off and the pluto switch is switched off:
 		say "You hear a click, and you get a congratulations!";
 		now gamebeat is true;
 		now player is in SDRPStudy.
