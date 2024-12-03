@@ -1334,7 +1334,8 @@ After printing the banner text:
 
 [	 [bold type]STATUS [roman type]tells you how many endings you have found.[line break]   ]
 
-The player is in Center of the Quad.
+[The player is in Center of the Quad.] [CHANGE BACK BEFORE SENDING]
+The player is in Western SCD.
 
 Center of the Quad is a room.  "You are standing in the center of the main quad on the University of Illinois campus. You are surrounded by a sea of grass, criss-crossed with sidewalks that lead in all directions. You are free to choose your own path."
 The printed name of Center of the Quad is "Center of the Quad".
@@ -10439,16 +10440,28 @@ monolithic football player is a photogenic, scavengerhuntable scenery thing in I
 The description of monolithic football player is "They grow 'em big in the Big 10."
 
 Taft Van Doren Hall is north of Irwin Indoor Football Facility. "From here, you can go [bold type]north, south[roman type] or [bold type]east[roman type]."
+Instead of entering Taft Van Doren Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Lundgren Hall is north of Clark Hall and northwest of George Huff Hall and southwest of Armory Southwest.
+Instead of entering Lundgren Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
-Weston Hall is southwest of Barton Hall and northwest of Flagg Hall and south of Ikenberry Dining Center.
+Weston Hall is southwest of Barton Hall and northwest of Flagg Hall and south of SDRP.
+Instead of entering Weston Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Snyder Hall is west of I-Stem Education Initiative Building and south of Weston Hall.
+Instead of entering Snyder Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Scott Hall is west of Snyder Hall and north of ARC.
+Instead of entering Scott Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Bousfield Hall is west of Scott Hall and northwest of ARC and north of ARC Parking Lot and east of Campus Recreation Turf Soccer Field.
+Instead of entering Bousfield Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 ARC Parking Lot is west of ARC.
 
@@ -10466,15 +10479,22 @@ Campus Bike Center is north of Marching Illini Practice Field and west of Campus
 
 Campus Recreation Basketball Court 2 is west of Campus Bike Center and northwest of Marching Illini Practice Field.
 
-Wassaja Hall is west of Marching Illini Practice Field.
+Wassaja Hall is east of Marching Illini Practice Field. "You stand on the brick path, a chic frame, in front of the equally chic Wassaja Hall." [something something vase thingy]
+Instead of entering Wassaja Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
-Hopkins Hall is south of Wassaja Hall and northeast of Campus Recreation Turf Soccer Field and north of Bousfield Hall.
+Hopkins Hall is south of Wassaja Hall and northeast of Campus Recreation Turf Soccer Field and north of Bousfield Hall. "You stand in the center of the hoop-shaped building called Hopkins Hall. The concrete path graciously continues through the building. You wonder how one lives in a building missing half of its first floor."
+Instead of entering Hopkins Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
-Nugent Hall is east of Wassaja Hall.
+Nugent Hall is east of Wassaja Hall. "Nugent Hall. It's the only Hall in Ikenberry that connects directly to the Student Dining and Residential Programs Building, dining hall and all. Must be nice. Surprisingly, the door is open."
+Instead of entering Nugent Hall:
+	say "You peek in, but it looks like there is a large group of people holding orange bags, with one guide at the front. Darn dorm tours. They show off the best room to make you believe your dorm life will be as pristine as they come. You back out before the crowd swallows you whole."
 
-Ikenberry Dining Center is east of Nugent Hall and west of Lundgren Hall.
+SDRP is east of Nugent Hall and west of Lundgren Hall. "The SDRP, which has 57N, the Ikenberry dining hall, and other amenities. Your one stop shop."
+The printed name of SDRP is "Student Dining and Residential Programs Building".
 
-Ikenberry Commons Courtyard is north of Scott Hall and northeast of Hopkins Hall and southeast of Wassaja Hall and south of Nugent Hall and southwest of Ikenberry Dining Center and west of Weston Hall and northwest of Snyder Hall.
+Ikenberry Commons Courtyard is north of Scott Hall and northeast of Hopkins Hall and southeast of Wassaja Hall and south of Nugent Hall and southwest of SDRP and west of Weston Hall and northwest of Snyder Hall. "You see a swath of green lawn of an awkward shape. The grass is weirdly wet. Despite this, you see people playing spikeball in the middle. You don't dare enter the grass and risk getting your socks wet."
 
 PART 2 - CURIOSITIES
 
@@ -10483,7 +10503,7 @@ The wandering puppy is an animal. "A puppy is following you. It looks up at you 
 The Wandering Puppy is in Grassy Field.  
 
 The description of the wandering puppy is "It's the cutest damn puppy you've ever seen. It is brown and fluffy. You look around, but it doesn't seem to have an owner. No collar or tag either."
-Understand "brown dog" and "dog" and "adorable puppy" as wandering puppy.
+Understand "brown dog" and "dog" and "adorable puppy" and "puppy" as wandering puppy.
 
 Instead of interrogating puppy about something:
 	try talking to puppy.
@@ -11503,8 +11523,6 @@ Instead of asking Gabe about "building":
 Instead of asking Gabe about something:
 	say "[one of]'That's pretty whack ngl...'[or]'Oh worm!' [or]'That's pretty unwoke of you to ask about that...' [or]'Don't make me cancel you....'[in random order]"
 
-
-
 [OBJECTS]
 strangePlantR is an undescribed object in ArtDesignStairwell3F.
 The printed name of strangePlantR is "Red Herb".
@@ -11532,34 +11550,26 @@ EasternSCD is a roomproxy in Eastern SCD.
 The printed name of EasternSCD is "Siebel Center for Design".
 Understand "Siebel" and "Design Center" and "SCD" and "Siebel Center" and "Siebel Center for Design" as EasternSCD. 
 
-EasternSCDInterior is inside from Eastern SCD and west of SCDMainLobby. "You are standing at the east entrance of the Siebel Center for Design, locally known as 'SCD'. There are some chairs here that you can sit around in and be able to study in with a overhang acting as a small protection against harsh sunlight and rain. From here you can go north to the cafe or west to explore the building." 
+EasternSCDInterior is inside from Eastern SCD and east of SCDMainLobby. "You are standing at the east entrance of the Siebel Center for Design, locally known as 'SCD'. There are some chairs here that you can sit around in and be able to study in with a overhang acting as a small protection against harsh sunlight and rain. From here you can go north to the cafe or west to explore the building." 
 The printed name of EasternSCDInterior is "East Terrace." 
-EasternSCDInterior is an interior location. 
+EasternSCDInterior is an interior location. 				
 
+Classroom 1000 is northwest of WesternSCDInterior. "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers. Strangely, you notice a lonely backpack sitting on top one of the tables. Some student must have forgotten it."
 
-Classroom 1000 is northwest of WesternSCDInterior.
-The description of Classroom 1000 is "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers. Strangely, you notice a lonely backpack sitting on top one of the tables. Some student must have forgotten it."
+Classroom 1002 is north of WesternSCDInterior. "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers."
 
-Classroom 1002 is southwest of WesternSCDInterior.
-The description of Classroom 1002 is "A typical classroom filled with desks and chairs, a computer for the teacher to use, a projection screen, and a whiteboard with barely working markers."
-
-SCDGallery is north of WesternSCDInterior.
-The description of Gallery is "[if unvisited] You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. [else] There looks to be some students hanging around this area, but there is still enough free seats for you to sit down and have a rest."
+SCDGallery is east of WesternSCDInterior. "[if unvisited]You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. [else] There looks to be some students hanging around this area, but there is still enough free seats for you to sit down and have a rest."
 The printed name of SCDGallery is "Gallery".
 
-Multimedia room is southwest of SCDGallery.
-The description of Multimedia room is "A digital production lab for all your storytelling needs. Create your videos, podcast, and also, eat ice-cream here is very welcome."
+Multimedia room is northwest of SCDGallery and northeast of WesternSCDInterior. "A digital production lab for all your storytelling needs. Record your videos and podcasts — also feel free to eat some ice cream (BYOIC)."
 
-SCDMainFloorRestrooms is northwest of SCDGallery.
-The description of Main floor restrooms is "[if unvisited] You take a deep breath before going into the restroom. You blink and let out a pleasantly surprised gasp, the restroom is cleaner than you first thought. You peek inside one of the stalls and aren't greeted with a dirty looking toilet with some toilet paper sitting inside the bowl. [paragraph break] You let out a ‘huh' as you step back and marvel at how clean it looks despite being a public restroom. It must be because the building is still new. So you count yourself lucky at seeing this restroom while it is still clean. [else] A clean looking restroom greets you, looks like it is being well kept by the janitors today."
+SCDMainFloorRestrooms is north of SCDGallery. "[if unvisited] You take a deep breath before going into the restroom. You blink and let out a pleasantly surprised gasp. The restroom is cleaner than you first thought. You peek inside one of the stalls and aren't greeted with a dirty looking toilet with some toilet paper sitting inside the bowl. [paragraph break] You let out a ‘huh' as you step back and marvel at how clean it looks despite being a public restroom. It must be because the building is still new. So you count yourself lucky at seeing this restroom while it is still clean. [else] A clean looking restroom greets you, looks like it is being well kept by the janitors today."
 The printed name of SCDMainFloorRestrooms is "Main Floor Restrooms".
 
-SCDMainLobby is north of SCDGallery.
-The description of SCDMainLobby is "Sit (or stand if you want) at our tall tables and chairs while you work or relax in one of the captain’s chairs in front of our floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away."
+SCDMainLobby is east of SCDGallery. "You look around and see tall tables and chairs to work and comfy captain’s chairs in front of the floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away."
 The printed name of SCDMainLobby is "Main Lobby".
 
-SCDMainOffice is southwest of SCDMainLobby.
-The description of SCDMainOffice is "(Looks terrible) Administrators’ here. Stop by to ask your questions."
+SCDMainOffice is northwest of SCDMainLobby and northeast of SCDGallery. "(Looks terrible) Administrators’ here. Stop by to ask your questions."
 The printed name of SCDMainOffice is "Main Office".
 
 [
@@ -11568,66 +11578,73 @@ The description of Kitchen is "[if unvisited] Seems not done yet but, there does
 The printed name of SCDKitchen is "Kitchen"
 ]
 
-Starlight Cafe is northwest of SCDMainLobby.
-The description of Starlight Cafe is "[if unvisited] No starlight but more Sunlight shines through on you, you can finish your pizza here. [else] you see the beautiful view of East Terrace and the bike side. There are some broken pumpkins left on the ground. "
+Starlight Cafe is northeast of SCDMainLobby. "[if unvisited] No starlight but more Sunlight shines through on you, you can finish your pizza here. [else] you see the beautiful view of East Terrace and the bike side. There are some broken pumpkins left on the ground. "
 
-Concierge is east of SCDMainLobby. 
-
+[Concierge is east of SCDMainLobby. [im gonna make this an object not a room]
 Sunrise Studios is east of Concierge.
+Small hallway is south of Concierge.]		
+	
+SunriseStudio 1040 is southeast of SCDMainLobby. "An quaint room: large, but hidden in the corner."
+	
+Upper Hallway is southwest of SCDMainLobby.
+The description of Small hallway is "A narrow hallway giving you a bird's eye view of the whole building."
 
-Small hallway is south of Concierge.
-The description of Small hallway is "the pathway in front of you leads you to go north, south, or maybe into Sunset Studio to the northeast or the Garage to the southeast."
+Top of Southeast Stairway is south of SCDMainLobby and southeast of Upper Hallway. "The top of the southeast stairway. Your eyes are caught by the surrounding area."
 
-SunsetStudio 1050 is northeast of Small hallway.
+SunsetStudio 1050 is south of Upper Hallway. "[if unvisited] Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. [else] You remember not to disturb the working students but also recall the white boards there."
+	
+MoonlightBay 1060 is southwest of Upper Hallway. "A space for temporary housing for artists to keep their work for a few weeks. Looks like no one has laid claim to it for now. The empty pegboard catches your eye."
 
-The description of SunsetStudio 1050 is "[if unvisited] Looks like there are students here working on projects together. You can see groups clearly with each cluster of students having open discussions with each other. [else] You remember not to disturb the working students but also recall the WhiteBoards there."
+[Garage is southeast of Upper Hallway]
 
-Garage is southeast of Small_Hallway.
+Front of elevator is south of WesternSCDInterior and west of upper hallway.
+The description of Front of elevator is "In front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’" [this is not broken oops]		
 
-Front of elevator is south of small hallway and northeast of Front entrance.
-The description of Front of elevator is "in front of you is an elevator that you can use to go to the lower floors. However, there is a sign on it that says ‘Out of Order’"
+Front entrance is south of Front of elevator. "A small room with a scale model of the Siebel Center of Design. To your east is a stairwell and the north the rest of the building."
 
-South Terrace is east of Front of elevator.
-The description of South Terrace is "A lesser used entrance to the Seibel Design Center. You are also not that far from the Art and Design building."
+Top of Southwest Stairway is east of front entrance. "A modest stairway, call concrete save for the modern-patterned door."
 
-MeetingRoom1070 is south of Front of elevator and east of front entrance.
-Ramp is down of Front of elevator.
-The printed name of MeetingRoom1070 is "[if unvisited] Meeting room 1070 [else] taken meeting room".
+South Terrace is south of front entrance. "A lesser used entrance to the Seibel Design Center. You are also not that far from the Art and Design building."
+
+MeetingRoom1070 is west of Front of elevator and northwest of front entrance.
+Ramp is down of WesternSCDInterior.
+The printed name of MeetingRoom1070 is "[if unvisited] Meeting room 1070 [else]taken meeting room".
+
 The description of MeetingRoom1070 is " Right before you walk into the meeting room you notice that it is occupied. You decide not to be rude and let the meeting continue."
 
 Instead of entering MeetingRoom1070:
 	say "You forgot that the meeting is occupied and should not barge in at the moment. Maybe some time later they will finish up and you can check out the meeting room.";
 	stop the action.
 
-
-[TESTING]
-
-
 [-------- Bottom Floor —-----]
-End of Ramp is down of ramp.
+Bottom of southwest stairway is down from Top of Southwest Stairway and southwest of Lower Lobby. "A small alcove, in which you see a water fountain."
 
-Amphitheater is east of End of Ramp.
+End of Ramp is down of ramp. "The bottom of the long ramp. Though it is a nice slope, the journey is quite long."
 
-Vending machine is west of End of Ramp.
-The description of Vending machine is "[if unvisited]You see three different types of machines in front of you: a coffee vending machine, which looks to be out of order. A snack vending machine, its items ranging from chips to sweet snacks. And a soda vending machine, having a variety of coke brand soda, and some other options of choosing a monster energy drink or a bottle of water. Across from them is a water fountain. [else] You see three different types of vending machines and a water fountain."
+Amphitheater is east of End of Ramp. "A space walled off by the ramp itself. There is a television and supposed seating, which is wood paneling on the concrete construction."
 
-Lower Restrooms is west of Vending machine.
-The description of Lower Restrooms is "[if unvisited]Much like its main floor counter part, this area looks to be well maintained and clean. There is nothing special to note about the bathroom except for the stalls and the trash can near the doorway.[else] A clean looking bathroom. Its a typical bathroom with stalls, sinks, paper towel dispensers, and a trash can."
+Bulletin board is north of End of Ramp. "The bulletin board is covered in flyers of different events and classes."
 
-Lower Lobby is south of End of ramp.
-The description of Lower Lobby is "[if unvisited] While not as big as the main lobby, it still has some desks and even four couches for students to lounge in. A few students have already taken advantage of the two of the couches. [else] A small lobby for students to study in."
+Vending machine is north of Bulletin board. "[if unvisited]You see three different types of vending machines in front of you: one for coffee, though it is out-of-order, one for snacks, its items ranging from chips to sweet snacks, and one for soda, which has a variety of coke brand soda, monster energy drinks, and water (there is a water fountain behind you so...). [else]You see three different types of vending machines and a water fountain."
 
-Hallway is east of Lower Lobby and south of Study hallway.
+Lower Restrooms is west of Vending machine and northwest of bulletin board. "[if unvisited]Much like its main floor counter part, this area looks to be well maintained and clean. There is nothing special to note about the bathroom except for the stalls and the trash can near the doorway.[else]A clean looking bathroom. Its a typical bathroom with stalls, sinks, paper towel dispensers, and a trash can."
 
-Twilight Studio is east of Hallway. "Tables and chairs sit at equal distances apart across the room. Tall rolling whiteboards separate them. Unlike the Sunset Studio upstairs, there is a depressing lack of both color and sunlight. [if SCDBentNail is in Twilight Studio]As you stroll through the room, you spot a bent nail sticking out of the wall. You might be able to hammer it back in place with something."
+Lower Lobby is west of End of ramp. "[if unvisited]While not as big as the main lobby, it still has some desks and even couches for students to lounge in. A few students have already taken advantage of the two of the couches. [else]A small lobby for students to study in."
 
-Classroom 60 is southeast of Hallway.
+Lower Hallway is southeast of Lower Lobby and south of End of Ramp. "The lower counterpart of the hallway above. The northern wall is actually rows of large lockers for the Twilight residents."
 
-Checkout window is north of End of Ramp.
+Twilight Studio is south of Lower Hallway. "Tables and chairs sit at equal distances apart across the room. Tall rolling whiteboards separate them. Unlike the Sunset Studio upstairs, there is a depressing lack of both color and sunlight. Around the room are various projects and tools from the different student organizations.[if SCDBentNail is in Twilight Studio]As you stroll through the room, you spot a bent nail sticking out of the wall. You might be able to hammer it back in place with something."
 
-SCDShop is northeast of Checkout window. "[if unvisited]As you open the doors, you are greeted by rows of tables covered with various devices: 3D printers, laser cutters, scanners, wood and metalworking tools, equipment lockers, and more. A few students are working on personal projects here and there, and a 3D printer whirs away in the corner on a complicated-looking project.[else if SCDHammer is in SCDShop]Glancing around, you can see an open 3D printer, an empty laser cutter, a wall of tools barren except for a single hammer, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects.[else]Glancing around, you can see an open 3D printer, an empty laser cutter, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects." The printed name of SCDShop is "The Shop".
+Computer lab is southwest of Lower Hallway and south of Lower Lobby. "Formerly Classroom 0060, the computer lab is one of the homes of the Game Studies and Design program, home of the Illini E-Sport competitors, headquarters of the Computer Music Project, and office hour location of Game Development."
+The printed name of computer lab is "Game Studies and Computer Music Lab".
 
-Study hallway is west of Checkout window.
+Project Storage is northeast of End of Ramp. "The large sign that says 'Project Storage' directs you to a closed window. Man..."
+
+Bottom of Southeast Stairway is east of lower hallway and down from top of Southeast stairway. "The bottom of the southeast stairway. Your eyes are caught by the surrounding area."
+
+SCDShop is southeast of Checkout window and east of Bottom of Southeast stairway. "[if unvisited]As you open the doors, you are greeted by rows of tables covered with various devices: 3D printers, laser cutters, scanners, wood and metalworking tools, equipment lockers, and more. A few students are working on personal projects here and there, and a 3D printer whirs away in the corner on a complicated-looking project.[else if SCDHammer is in SCDShop]Glancing around, you can see an open 3D printer, an empty laser cutter, a wall of tools barren except for a single hammer, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects.[else]Glancing around, you can see an open 3D printer, an empty laser cutter, and a free shop table covered in loose bolts of fabric and textiles. Students mill about, working on their own projects." The printed name of SCDShop is "The Shop".
+
+Study hallway is west of Checkout window and north of Lower Lobby. "Rows of white tables sit under equally white walls, which upon closer inspection, are whiteboards. The area is blindingly bright."
 
 Space Room is a room. "The room hardly looks like a room at all; there don't appear to be visible walls or ceilings, though you can feel intuitively that they exist from the way the light bends. You feel like you're standing in some sort of void, but it's filled with basketball-sized planets, stars, asteroids, and other little heavenly bodies slowly bouncing around the room. A particularly frozen ball of matter hovers motionless at the far end."
 
@@ -11939,7 +11956,6 @@ Instead of taking Teacher Plushie:
 		increase ItemCount by 1;
 		now player has the Teacher Plushie.
 
-
 Artistic Plushie is a Scavenger Item.
 The description of Artistic Plushie is "A cute plush of a student carrying a bag of art supplies."
 
@@ -11963,8 +11979,122 @@ Instead of taking Golden Squirrel Plushie:
 [---------- Prize Item—-------]
 Prize hat is a wearable.
 
+PART 9 - SDRP
+[ik there are two entrances but let's go with the one in front of the quad]
 
+SDRPInterior is inside of SDRP. "You are standing at the south entrance of the Student Dining & Residential Programs Building, or the SDRP, also called Ikenberry Commons. There is a stairwell to your east, the dining hall to your west, a study hall to your south, and 57-N to your northeast." [i need help configuring the interiorlocation thing]
+The printed name of SDRPInterior is "Student Dining & Residential Programs Building Lobby".
+Understand "SDRP" and "Dining" and "Ikenberry" as SDRPInterior.
 
+SDRPStairs are east of SDRPInterior. "A tall, winding stairwell. There are some chairs and plants underneath."
+The printed name of SDRPStairs is "SDRP Stairs."
+
+Stairfurniture is scenery in SDRPStairs.
+The description of Stairfurniture is "The plasticy chairs and plants add to the geometric essense of the SDRP."
+Understand "furniture" and "chairs" and "plants" as Stairfurniture.
+
+IkeDiningHall is west of SDRPInterior. "The Ikenberry dining hall. Second largest on campus. Even if you're hungry, it's not work swiping in for a meal here. You'll be less ripped off eating anywhere else."
+Understand "dining hall" and "dining" as IkeDiningHall.
+The printed name of IkeDiningHall is "Ikenberry Dining Hall."
+
+Mailing room is north of SDRPStairs. "The mail pick-up room. The grates are shut. You see an ATM and McKinley Vending machine to your left."
+
+SDRPVending is scenery in Mailing Room.
+Understand "Vending machine" and "Mckinley" and "Mckinley vending" as SDRPVending.
+The description of SDRPVending is "The blinding screen shows basic health needs a college student may need, including a large variety of... You know what. Nevermind. Not that you need any of this anyways."
+
+SDRPStudy is south of SDRPInterior. "A large, almost liminal, study room. People are working away at some computers, though one is empty."
+The printed name of SDRPStudy is "SDRP Study."
+	
+SDRPComputer is scenery in SDRPStudy. "A game is open. Looks like an escape room."
+Understand "Computer" as SDRP computer.
+	
+[game]	
+
+gamebeat is a truth state variable. Gamebeat is false.
+	
+Understand "play escape room" and "play game" as escaperoomplaying.
+escaperoomplaying is an action applying to nothing.
+
+Check escaperoomplaying:
+	if player is not in SDRPStudy:
+		say "There are no rooms to escape here.";
+		stop the action;
+	if gamebeat is true:
+		say "You already beat it.";
+		stop the action.
+
+Carry out escaperoomplaying:
+	say "You sit down in front of the computer and look at the screen.";
+	now player is in EscRoom.
+
+EscRoom is a room. "This looks to be a very bare bones escape room. You see nine switches, a riddle, and a hint sheet. The switches are of all of the planets."
+The printed name of EscRoom is "Baby's First Escape Room Game".
+Instead of going nowhere when player is in TennisZone:
+	say "you step back from the game, so you can finish it later.";
+	now player is in SDRPStudy.
+
+Riddle is readable thing in EscRoom. Riddle is scenery.
+Instead of reading Riddle:
+	say "To escape this prison, you must find the gods to bring peace and harmony. Choose wisely, for only three will reveal the path."
+
+Hint sheet is readable thing in EscRoom. hint sheet is scenery.
+Instead of reading hint:
+	say "Hint: communication, love, and hospitality are your ingredients."
+	
+A gameswitch is a kind of device. A gameswitch is usually switched off.
+The Mercury switch is a gameswitch in EscRoom. The mercury switch is scenery.
+The Venus switch is a gameswitch in EscRoom. The venus switch is scenery.
+The Earth switch is a gameswitch in EscRoom. The earth switch is scenery.
+The Mars switch is a gameswitch in EscRoom. The mars switch is scenery.
+The Jupiter switch is a gameswitch in EscRoom. The jupiter switch is scenery.
+The Saturn switch is a gameswitch in EscRoom. The saturn switch is scenery.
+The Uranus switch is a gameswitch in EscRoom. The uranus switch is scenery.
+The Neptune switch is a gameswitch in EscRoom. The neptune switch is scenery.
+The Pluto switch is a gameswitch in EscRoom. The pluto switch is scenery.
+
+Instead of switching on a gameswitch:
+    now the noun is switched on;
+    say "You turn on [the noun].";
+    check puzzle solution.
+
+Instead of switching off a gameswitch:
+	now the noun is switched off;
+ 	say "You turn off [the noun].";
+ 	check puzzle solution.
+
+To check puzzle solution:
+	if the mercury switch is switched on and the venus switch is switched on and the jupiter switch is switched on and the earth switch is switched off and the mars switch is switched off the saturn switch is switched off and the uranus switch is switched off and the neptune switch is switched off and the pluto switch is switched off:
+		say "You hear a click, and you get a congratulations!";
+		now gamebeat is true;
+		now player is in SDRPStudy.
+[uhh what now]
+			
+[end of game]
+	
+57N is northeast of SDRPInterior. "It's closed... you see someone mopping inside. Wonder what happened."
+The printed name of 57N is "57 North".
+
+SDRPInteriorUP is up from SDRPStairs. "The upper floor of the SDRP. To your south is the Ikenberry library and the north Caffinator. You can always go back down, too."
+The printed name of SDRPInteriorUp is "Student Dining & Residential Programs Building Lobby upper floor".
+	
+Caffinator is north of SDRPInteriorUP. "The caffinator is one of the many UIUC dining locations, meaning it accepts dining dollars and Illini-Bucks. Other than that, it's like most other middling coffee places."
+		
+The Caffmenu is in Caffinator. "[bold type]Drinks[roman type][line break]Drip Coffee - $2.75[line break]Espresso -$2.25[line break]Chai Latte - $5.00[line break]Hot Tea - $2.70[line break]Hot Cocoa - $3.90."
+
+The CaffinatorDrip is a drinkable, edible coffee-beverage ware in the Caffinator. The CaffinatorDrip is scenery. The price of the CaffinatorDrip is $2.75. The description is "A hot cup of drip coffee." 
+Understand "coffee" and "drip coffee" as CaffinatorDrip. The printed name of CaffinatorDrip is "Drip Coffee".
+
+The CaffinatorEspresso is a drinkable, edible coffee-beverage ware in the Caffinator. The CaffinatorEspresso is scenery. The price of the CaffinatorEspresso is $2.25. The description is "A strong brew for the soul. No complementary sparkling water." 
+Understand "coffee" and "drip coffee" as CaffinatorEspresso. The printed name of CaffinatorEspresso is "Espresso".
+
+The CaffinatorChai is a drinkable, edible noncoffee-beverage ware in the Caffinator. The CaffinatorChai is scenery. The price of the CaffinatorChai is $5.00. The description is "Warm milk on hot water and chai syrup. You know several people who would be very dissapointed if they learned you have this." 
+Understand "chai" and "latte" and "chai latte" as CaffinatorChai. 
+The printed name of CaffinatorChai is "Chai Latte".
+
+The CaffinatorHotTea is a drinkable, edible noncoffee-beverage ware in the Caffinator.  The CaffinatorHotTea is scenery. The price of the CaffinatorHotTea is $2.70. The description is "A very hot, unsweetened cup of black tea from a teabag." Understand "tea" and "hot tea" as CaffinatorHotTea. The printed name of CaffinatorHotTea is "Hot Tea".
+
+The CaffinatorCocoa is a drinkable, edible noncoffee-beverage ware in the Caffinator. The CaffinatorCocoa is scenery. The price of the CaffinatorCocoa is $3.90. The description is "Swiss Miss, Instant-." Understand "Hot Chocolate" and "Hot Cocoa" and "cocoa" as CaffinatorCocoa. The printed name of CaffinatorCocoa is "Hot Cocoa".
 
 VOLUME 6 - WEST CAMPUS
 
