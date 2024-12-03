@@ -10440,16 +10440,28 @@ monolithic football player is a photogenic, scavengerhuntable scenery thing in I
 The description of monolithic football player is "They grow 'em big in the Big 10."
 
 Taft Van Doren Hall is north of Irwin Indoor Football Facility. "From here, you can go [bold type]north, south[roman type] or [bold type]east[roman type]."
+Instead of entering Taft Van Doren Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Lundgren Hall is north of Clark Hall and northwest of George Huff Hall and southwest of Armory Southwest.
+Instead of entering Lundgren Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
-Weston Hall is southwest of Barton Hall and northwest of Flagg Hall and south of Ikenberry Dining Center.
+Weston Hall is southwest of Barton Hall and northwest of Flagg Hall and south of SDRP.
+Instead of entering Weston Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Snyder Hall is west of I-Stem Education Initiative Building and south of Weston Hall.
+Instead of entering Snyder Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Scott Hall is west of Snyder Hall and north of ARC.
+Instead of entering Scott Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 Bousfield Hall is west of Scott Hall and northwest of ARC and north of ARC Parking Lot and east of Campus Recreation Turf Soccer Field.
+Instead of entering Bousfield Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
 ARC Parking Lot is west of ARC.
 
@@ -10467,15 +10479,22 @@ Campus Bike Center is north of Marching Illini Practice Field and west of Campus
 
 Campus Recreation Basketball Court 2 is west of Campus Bike Center and northwest of Marching Illini Practice Field.
 
-Wassaja Hall is west of Marching Illini Practice Field.
+Wassaja Hall is east of Marching Illini Practice Field. "You stand on the brick path, a chic frame, in front of the equally chic Wassaja Hall." [something something vase thingy]
+Instead of entering Wassaja Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
-Hopkins Hall is south of Wassaja Hall and northeast of Campus Recreation Turf Soccer Field and north of Bousfield Hall.
+Hopkins Hall is south of Wassaja Hall and northeast of Campus Recreation Turf Soccer Field and north of Bousfield Hall. "You stand in the center of the hoop-shaped building called Hopkins Hall. The concrete path graciously continues through the building. You wonder how one lives in a building missing half of its first floor."
+Instead of entering Hopkins Hall:
+	say "[one of]You swipe your icard into the card reader, but it beeps with a red light. You don't live here, so there really isn't a reason to go in, anyways.[or]Beep. You don't live here.[stopping]"
 
-Nugent Hall is east of Wassaja Hall.
+Nugent Hall is east of Wassaja Hall. "Nugent Hall. It's the only Hall in Ikenberry that connects directly to the Student Dining and Residential Programs Building, dining hall and all. Must be nice. Surprisingly, the door is open."
+Instead of entering Nugent Hall:
+	say "You peek in, but it looks like there is a large group of people holding orange bags, with one guide at the front. Darn dorm tours. They show off the best room to make you believe your dorm life will be as pristine as they come. You back out before the crowd swallows you whole."
 
-Ikenberry Dining Center is east of Nugent Hall and west of Lundgren Hall.
+SDRP is east of Nugent Hall and west of Lundgren Hall. "The SDRP, which has 57N, the Ikenberry dining hall, and other amenities. Your one stop shop."
+The printed name of SDRP is "Student Dining and Residential Programs Building".
 
-Ikenberry Commons Courtyard is north of Scott Hall and northeast of Hopkins Hall and southeast of Wassaja Hall and south of Nugent Hall and southwest of Ikenberry Dining Center and west of Weston Hall and northwest of Snyder Hall.
+Ikenberry Commons Courtyard is north of Scott Hall and northeast of Hopkins Hall and southeast of Wassaja Hall and south of Nugent Hall and southwest of SDRP and west of Weston Hall and northwest of Snyder Hall. "You see a swath of green lawn of an awkward shape. The grass is weirdly wet. Despite this, you see people playing spikeball in the middle. You don't dare enter the grass and risk getting your socks wet."
 
 PART 2 - CURIOSITIES
 
@@ -10484,7 +10503,7 @@ The wandering puppy is an animal. "A puppy is following you. It looks up at you 
 The Wandering Puppy is in Grassy Field.  
 
 The description of the wandering puppy is "It's the cutest damn puppy you've ever seen. It is brown and fluffy. You look around, but it doesn't seem to have an owner. No collar or tag either."
-Understand "brown dog" and "dog" and "adorable puppy" as wandering puppy.
+Understand "brown dog" and "dog" and "adorable puppy" and "puppy" as wandering puppy.
 
 Instead of interrogating puppy about something:
 	try talking to puppy.
@@ -11504,8 +11523,6 @@ Instead of asking Gabe about "building":
 Instead of asking Gabe about something:
 	say "[one of]'That's pretty whack ngl...'[or]'Oh worm!' [or]'That's pretty unwoke of you to ask about that...' [or]'Don't make me cancel you....'[in random order]"
 
-
-
 [OBJECTS]
 strangePlantR is an undescribed object in ArtDesignStairwell3F.
 The printed name of strangePlantR is "Red Herb".
@@ -11939,7 +11956,6 @@ Instead of taking Teacher Plushie:
 		increase ItemCount by 1;
 		now player has the Teacher Plushie.
 
-
 Artistic Plushie is a Scavenger Item.
 The description of Artistic Plushie is "A cute plush of a student carrying a bag of art supplies."
 
@@ -11963,8 +11979,122 @@ Instead of taking Golden Squirrel Plushie:
 [---------- Prize Item—-------]
 Prize hat is a wearable.
 
+PART 9 - SDRP
+[ik there are two entrances but let's go with the one in front of the quad]
 
+SDRPInterior is inside of SDRP. "You are standing at the south entrance of the Student Dining & Residential Programs Building, or the SDRP, also called Ikenberry Commons. There is a stairwell to your east, the dining hall to your west, a study hall to your south, and 57-N to your northeast." [i need help configuring the interiorlocation thing]
+The printed name of SDRPInterior is "Student Dining & Residential Programs Building Lobby".
+Understand "SDRP" and "Dining" and "Ikenberry" as SDRPInterior.
 
+SDRPStairs are east of SDRPInterior. "A tall, winding stairwell. There are some chairs and plants underneath."
+The printed name of SDRPStairs is "SDRP Stairs."
+
+Stairfurniture is scenery in SDRPStairs.
+The description of Stairfurniture is "The plasticy chairs and plants add to the geometric essense of the SDRP."
+Understand "furniture" and "chairs" and "plants" as Stairfurniture.
+
+IkeDiningHall is west of SDRPInterior. "The Ikenberry dining hall. Second largest on campus. Even if you're hungry, it's not work swiping in for a meal here. You'll be less ripped off eating anywhere else."
+Understand "dining hall" and "dining" as IkeDiningHall.
+The printed name of IkeDiningHall is "Ikenberry Dining Hall."
+
+Mailing room is north of SDRPStairs. "The mail pick-up room. The grates are shut. You see an ATM and McKinley Vending machine to your left."
+
+SDRPVending is scenery in Mailing Room.
+Understand "Vending machine" and "Mckinley" and "Mckinley vending" as SDRPVending.
+The description of SDRPVending is "The blinding screen shows basic health needs a college student may need, including a large variety of... You know what. Nevermind. Not that you need any of this anyways."
+
+SDRPStudy is south of SDRPInterior. "A large, almost liminal, study room. People are working away at some computers, though one is empty."
+The printed name of SDRPStudy is "SDRP Study."
+	
+SDRPComputer is scenery in SDRPStudy. "A game is open. Looks like an escape room."
+Understand "Computer" as SDRP computer.
+	
+[game]	
+
+gamebeat is a truth state variable. Gamebeat is false.
+	
+Understand "play escape room" and "play game" as escaperoomplaying.
+escaperoomplaying is an action applying to nothing.
+
+Check escaperoomplaying:
+	if player is not in SDRPStudy:
+		say "There are no rooms to escape here.";
+		stop the action;
+	if gamebeat is true:
+		say "You already beat it.";
+		stop the action.
+
+Carry out escaperoomplaying:
+	say "You sit down in front of the computer and look at the screen.";
+	now player is in EscRoom.
+
+EscRoom is a room. "This looks to be a very bare bones escape room. You see nine switches, a riddle, and a hint sheet. The switches are of all of the planets."
+The printed name of EscRoom is "Baby's First Escape Room Game".
+Instead of going nowhere when player is in TennisZone:
+	say "you step back from the game, so you can finish it later.";
+	now player is in SDRPStudy.
+
+Riddle is readable thing in EscRoom. Riddle is scenery.
+Instead of reading Riddle:
+	say "To escape this prison, you must find the gods to bring peace and harmony. Choose wisely, for only three will reveal the path."
+
+Hint sheet is readable thing in EscRoom. hint sheet is scenery.
+Instead of reading hint:
+	say "Hint: communication, love, and hospitality are your ingredients."
+	
+A gameswitch is a kind of device. A gameswitch is usually switched off.
+The Mercury switch is a gameswitch in EscRoom. The mercury switch is scenery.
+The Venus switch is a gameswitch in EscRoom. The venus switch is scenery.
+The Earth switch is a gameswitch in EscRoom. The earth switch is scenery.
+The Mars switch is a gameswitch in EscRoom. The mars switch is scenery.
+The Jupiter switch is a gameswitch in EscRoom. The jupiter switch is scenery.
+The Saturn switch is a gameswitch in EscRoom. The saturn switch is scenery.
+The Uranus switch is a gameswitch in EscRoom. The uranus switch is scenery.
+The Neptune switch is a gameswitch in EscRoom. The neptune switch is scenery.
+The Pluto switch is a gameswitch in EscRoom. The pluto switch is scenery.
+
+Instead of switching on a gameswitch:
+    now the noun is switched on;
+    say "You turn on [the noun].";
+    check puzzle solution.
+
+Instead of switching off a gameswitch:
+	now the noun is switched off;
+ 	say "You turn off [the noun].";
+ 	check puzzle solution.
+
+To check puzzle solution:
+	if the mercury switch is switched on and the venus switch is switched on and the jupiter switch is switched on and the earth switch is switched off and the mars switch is switched off the saturn switch is switched off and the uranus switch is switched off and the neptune switch is switched off and the pluto switch is switched off:
+		say "You hear a click, and you get a congratulations!";
+		now gamebeat is true;
+		now player is in SDRPStudy.
+[uhh what now]
+			
+[end of game]
+	
+57N is northeast of SDRPInterior. "It's closed... you see someone mopping inside. Wonder what happened."
+The printed name of 57N is "57 North".
+
+SDRPInteriorUP is up from SDRPStairs. "The upper floor of the SDRP. To your south is the Ikenberry library and the north Caffinator. You can always go back down, too."
+The printed name of SDRPInteriorUp is "Student Dining & Residential Programs Building Lobby upper floor".
+	
+Caffinator is north of SDRPInteriorUP. "The caffinator is one of the many UIUC dining locations, meaning it accepts dining dollars and Illini-Bucks. Other than that, it's like most other middling coffee places."
+		
+The Caffmenu is in Caffinator. "[bold type]Drinks[roman type][line break]Drip Coffee - $2.75[line break]Espresso -$2.25[line break]Chai Latte - $5.00[line break]Hot Tea - $2.70[line break]Hot Cocoa - $3.90."
+
+The CaffinatorDrip is a drinkable, edible coffee-beverage ware in the Caffinator. The CaffinatorDrip is scenery. The price of the CaffinatorDrip is $2.75. The description is "A hot cup of drip coffee." 
+Understand "coffee" and "drip coffee" as CaffinatorDrip. The printed name of CaffinatorDrip is "Drip Coffee".
+
+The CaffinatorEspresso is a drinkable, edible coffee-beverage ware in the Caffinator. The CaffinatorEspresso is scenery. The price of the CaffinatorEspresso is $2.25. The description is "A strong brew for the soul. No complementary sparkling water." 
+Understand "coffee" and "drip coffee" as CaffinatorEspresso. The printed name of CaffinatorEspresso is "Espresso".
+
+The CaffinatorChai is a drinkable, edible noncoffee-beverage ware in the Caffinator. The CaffinatorChai is scenery. The price of the CaffinatorChai is $5.00. The description is "Warm milk on hot water and chai syrup. You know several people who would be very dissapointed if they learned you have this." 
+Understand "chai" and "latte" and "chai latte" as CaffinatorChai. 
+The printed name of CaffinatorChai is "Chai Latte".
+
+The CaffinatorHotTea is a drinkable, edible noncoffee-beverage ware in the Caffinator.  The CaffinatorHotTea is scenery. The price of the CaffinatorHotTea is $2.70. The description is "A very hot, unsweetened cup of black tea from a teabag." Understand "tea" and "hot tea" as CaffinatorHotTea. The printed name of CaffinatorHotTea is "Hot Tea".
+
+The CaffinatorCocoa is a drinkable, edible noncoffee-beverage ware in the Caffinator. The CaffinatorCocoa is scenery. The price of the CaffinatorCocoa is $3.90. The description is "Swiss Miss, Instant-." Understand "Hot Chocolate" and "Hot Cocoa" and "cocoa" as CaffinatorCocoa. The printed name of CaffinatorCocoa is "Hot Cocoa".
 
 VOLUME 6 - WEST CAMPUS
 
