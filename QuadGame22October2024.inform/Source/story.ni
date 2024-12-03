@@ -11681,13 +11681,13 @@ The description of Bathroom items is "Just regular stuff that you would find in 
 Understand "stalls" and "bathroom stalls" and "sinks" and "sink" and "paper towel dispenser" as Bathroom items.
 
 Students studying is a backdrop.
-Students studying is in Main Lobby and Gallery and Lower Lobby.
+Students studying is in SCDMainLobby and Gallery and Lower Lobby.
 The description of Students studying is "A couple of students are sitting down and look to be doing homework, group projects, or are in zoom meetings. They don’t disturb you but fill the area with a bit of life and bustle."
 
 Understand "busy students" and "working students" as Students studying.
 
 SCDFurniture is a backdrop.
-SCDFurniture is in Classroom 1000 and Classroom 1002 and Gallery and Multimedia and Main Lobby and Starlight Cafe and East Terrace and Amphitheater and Lower Lobby and Classroom 60 and Study hallway.
+SCDFurniture is in Classroom 1000 and Classroom 1002 and Gallery and Multimedia and SCDMainLobby and Starlight Cafe and East Terrace and Amphitheater and Lower Lobby and Classroom 60 and Study hallway.
 
 The description of SCDfurniture is "Just normal furniture meant to fill in the room and provide a space for students to learn and study in. Nothing really special about them."
 The printed name of SCDFurniture is "furniture".
@@ -11835,7 +11835,7 @@ Talked to Riddler is a truth state variable. Talked to Riddler is false.
 
 Golden Squirrel is a truth state variable. Golden Squirrel is false.
 
-Riddler is a person in Main Lobby. "A dapper man sits in one of the chairs of the Main Lobby. Draped around his neck is a sign."
+Riddler is a person in SCDMainLobby. "A dapper man sits in one of the chairs of the Main Lobby. Draped around his neck is a sign."
 The description of Riddler is "He definitely looks out of place compared to the other visitors in this place. Looking closely, the sign on him says ‘Come one, come all! Participate in the Seibel Design Center Scavenger Hunt!’. [paragraph break] It looks like you can [bold type]'ask Riddler about the Scavenger Hunt'[roman type]."
 
 Understand "sign" and "dapper man" and "man" and "ridder" as Riddler.
@@ -12007,7 +12007,7 @@ Stairfurniture is scenery in SDRPStairs.
 The description of Stairfurniture is "The plasticy chairs and plants add to the geometric essense of the SDRP."
 Understand "furniture" and "chairs" and "plants" as Stairfurniture.
 
-IkeDiningHall is west of SDRPInterior. "The Ikenberry dining hall. Second largest on campus. Even if you're hungry, it's not work swiping in for a meal here. You'll be less ripped off eating anywhere else."
+IkeDiningHall is west of SDRPInterior. "The Ikenberry dining hall. Second largest on campus. Even if you're hungry, it's not worth swiping in for a meal here. You'll be less ripped off eating anywhere else."
 Understand "dining hall" and "dining" as IkeDiningHall.
 The printed name of IkeDiningHall is "Ikenberry Dining Hall."
 
@@ -12100,7 +12100,7 @@ The CaffinatorDrip is a drinkable, edible coffee-beverage ware in the Caffinator
 Understand "coffee" and "drip coffee" as CaffinatorDrip. The printed name of CaffinatorDrip is "Drip Coffee".
 
 The CaffinatorEspresso is a drinkable, edible coffee-beverage ware in the Caffinator. The CaffinatorEspresso is scenery. The price of the CaffinatorEspresso is $2.25. The description is "A strong brew for the soul. No complementary sparkling water." 
-Understand "coffee" and "drip coffee" as CaffinatorEspresso. The printed name of CaffinatorEspresso is "Espresso".
+Understand "coffee" and "espresso" as CaffinatorEspresso. The printed name of CaffinatorEspresso is "Espresso".
 
 The CaffinatorChai is a drinkable, edible noncoffee-beverage ware in the Caffinator. The CaffinatorChai is scenery. The price of the CaffinatorChai is $5.00. The description is "Warm milk on hot water and chai syrup. You know several people who would be very dissapointed if they learned you have this." 
 Understand "chai" and "latte" and "chai latte" as CaffinatorChai. 

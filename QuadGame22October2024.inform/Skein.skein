@@ -33,8 +33,11 @@ You are standing outside the west entrance of the Center for Design. You can ent
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1106"></child>
             <child nodeId="node-1104"></child>
+            <child nodeId="node-1507"></child>
+            <child nodeId="node-1493"></child>
             <child nodeId="node-1091"></child>
             <child nodeId="node-1066"></child>
+            <child nodeId="node-1476"></child>
             <child nodeId="node-1003"></child>
         </children>
     </item>
@@ -673,6 +676,175 @@ Hot Cocoa - $3.90.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1476">
+        <command xml:space="preserve">take selfie</command>
+        <result xml:space="preserve">You take a selfie, but you don't like how it looks so you delete it.
+
+You have noticed the summer days getting shorter and the air getting crisper. Autumn is here and the fall semester at the University of Illinois has already well begun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1477"></child>
+        </children>
+    </item>
+    <item nodeId="node-1477">
+        <command xml:space="preserve">take selfie with scd</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1478"></child>
+        </children>
+    </item>
+    <item nodeId="node-1478">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Siebel Center for Design
+You are standing outside the west entrance of the Center for Design. You can enter it from here, go north to George Huff Hall or south to Art and Design. Flagg Hall is due west, across the street.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1479"></child>
+        </children>
+    </item>
+    <item nodeId="node-1479">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">
+West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1480"></child>
+        </children>
+    </item>
+    <item nodeId="node-1480">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1481"></child>
+        </children>
+    </item>
+    <item nodeId="node-1481">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gallery
+You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1482"></child>
+        </children>
+    </item>
+    <item nodeId="node-1482">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Main Lobby
+You look around and see tall tables and chairs to work and comfy captain's chairs in front of the floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1483"></child>
+        </children>
+    </item>
+    <item nodeId="node-1483">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You try to go down but find yourself unable to do so. How about going south?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1484"></child>
+        </children>
+    </item>
+    <item nodeId="node-1484">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Top of Southeast Stairway
+The top of the southeast stairway. Your eyes are caught by the surrounding area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1485"></child>
+        </children>
+    </item>
+    <item nodeId="node-1485">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">
+Bottom of Southeast Stairway
+The bottom of the southeast stairway. Your eyes are caught by the surrounding area.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1486"></child>
+        </children>
+    </item>
+    <item nodeId="node-1486">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You try to go north but find yourself unable to do so. How about going east?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1487"></child>
+        </children>
+    </item>
+    <item nodeId="node-1487">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+The Shop
+As you open the doors, you are greeted by rows of tables covered with various devices: 3D printers, laser cutters, scanners, wood and metalworking tools, equipment lockers, and more. A few students are working on personal projects here and there, and a 3D printer whirs away in the corner on a complicated-looking project.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1488"></child>
+        </children>
+    </item>
+    <item nodeId="node-1488">
+        <command xml:space="preserve">x 3d printer</command>
+        <result xml:space="preserve">The printer is currently motionless, but sparkly blue filament sits on the rack in the back and feeds into the nozzle, waiting to be used.
+
+3D Printer is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1489"></child>
+        </children>
+    </item>
+    <item nodeId="node-1489">
+        <command xml:space="preserve">take selfie with 3d printer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1490"></child>
+        </children>
+    </item>
+    <item nodeId="node-1490">
+        <command xml:space="preserve">take selfie with 3dprinter</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1491"></child>
+        </children>
+    </item>
+    <item nodeId="node-1491">
+        <command xml:space="preserve">take selfie with printer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1492"></child>
+        </children>
+    </item>
+    <item nodeId="node-1492">
+        <command xml:space="preserve">flip 3d printer</command>
+        <result xml:space="preserve">You probably wouldn't be able to lift this, much less flip it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1066">
         <command xml:space="preserve">sw</command>
         <result xml:space="preserve">You try to go southwest but find yourself unable to do so. How about going west?
@@ -1054,6 +1226,202 @@ You are standing at the south entrance of the Student Dining &amp; Residential P
 
 SDRPStairs
 A tall, winding stairwell. There are some chairs and plants underneath.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1493">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+George Huff Hall
+You are standing outside George Huff Hall. You can cross the street north to the Armory or walk towards the Seibel Design Center to the south. You can also go towards the east to the Collage of Business" parking lot and continue going east to reach their building.
+
+You have noticed the summer days getting shorter and the air getting crisper. Autumn is here and the fall semester at the University of Illinois has already well begun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1494"></child>
+        </children>
+    </item>
+    <item nodeId="node-1494">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Lundgren Hall
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1495"></child>
+        </children>
+    </item>
+    <item nodeId="node-1495">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Student Dining and Residential Programs Building
+The SDRP, which has 57N, the Ikenberry dining hall, and other amenities. Your one stop shop.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1496"></child>
+        </children>
+    </item>
+    <item nodeId="node-1496">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  an icard
+  basic clothes (being worn)
+  your wristwatch (being worn)
+  your wallet
+    $25.00 in cash
+  your phone
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1497"></child>
+        </children>
+    </item>
+    <item nodeId="node-1497">
+        <command xml:space="preserve">take selfie with icard</command>
+        <result xml:space="preserve">You took a selfie with the icard. Great, another 4 mb of random trash inside my head, your phone murmured.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1498"></child>
+        </children>
+    </item>
+    <item nodeId="node-1498">
+        <command xml:space="preserve">take selfie</command>
+        <result xml:space="preserve">You take a selfie, but you don't like how it looks so you delete it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1499"></child>
+        </children>
+    </item>
+    <item nodeId="node-1499">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Lundgren Hall
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1500"></child>
+        </children>
+    </item>
+    <item nodeId="node-1500">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You meander about but don't really get anywhere. How about going southeast?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1501"></child>
+        </children>
+    </item>
+    <item nodeId="node-1501">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+George Huff Hall
+You are standing outside George Huff Hall. You can cross the street north to the Armory or walk towards the Seibel Design Center to the south. You can also go towards the east to the Collage of Business" parking lot and continue going east to reach their building.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1502"></child>
+        </children>
+    </item>
+    <item nodeId="node-1502">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Siebel Center for Design
+You are standing outside the west entrance of the Center for Design. You can enter it from here, go north to George Huff Hall or south to Art and Design. Flagg Hall is due west, across the street.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1503"></child>
+        </children>
+    </item>
+    <item nodeId="node-1503">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">
+West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+You hear a brief, but lovely set of harmonic dings, downloaded from a recording of a Tuvan throat singer, that indicates you have received a text.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1504"></child>
+        </children>
+    </item>
+    <item nodeId="node-1504">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gallery
+You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1505"></child>
+        </children>
+    </item>
+    <item nodeId="node-1505">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Main Lobby
+You look around and see tall tables and chairs to work and comfy captain's chairs in front of the floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+Your phone dings harmonically.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1506"></child>
+        </children>
+    </item>
+    <item nodeId="node-1506">
+        <command xml:space="preserve">x riddler</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1507">
+        <command xml:space="preserve">in</command>
+        <result xml:space="preserve">
+West Terrace
+You are standing at the west end of the Siebel Center for Design, locally known as "SCD". A support desk is in front of you, but strangely there isn't a person manning it. there are classrooms to the northwest and southwest.
+
+You have noticed the summer days getting shorter and the air getting crisper. Autumn is here and the fall semester at the University of Illinois has already well begun.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1508"></child>
+        </children>
+    </item>
+    <item nodeId="node-1508">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Gallery
+You are surprised at how open this area feels and see that there are a lot of places that you can sit in. Other students are casually sitting around: working on homework, playing on their phone, or just casually resting. You feel relaxed at the sight of this. 
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1509"></child>
+        </children>
+    </item>
+    <item nodeId="node-1509">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Main Lobby
+You look around and see tall tables and chairs to work and comfy captain's chairs in front of the floor-to-ceiling east windows. There are some students already sitting on the tall tables and are busy studying away.
+
+A dapper man sits in one of the chairs of the Main Lobby. Draped around his neck is a sign.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1510"></child>
+        </children>
+    </item>
+    <item nodeId="node-1510">
+        <command xml:space="preserve">take selfie with riddler</command>
+        <result xml:space="preserve">You took a selfie with Riddler, despite sensing some reluctance. You two exchanged an awkward yet polite smile.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
